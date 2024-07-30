@@ -3,7 +3,6 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import myLogo from '../logo_transparent.png';
-import { useTranslation } from 'react-i18next';
 
 
 
