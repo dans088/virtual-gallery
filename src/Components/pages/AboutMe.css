@@ -1,0 +1,44 @@
+.about{
+    padding: 4rem;
+    height: 400vh;
+    background: #fcf7f6;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2em;
+  }
+p {
+  
+  color:#fff;
+  text-shadow: 0px 0px 27px rgba(66,66,66,.75);
+  border-radius: 14px;
+  padding: 23px;
+  font-size: 25px;
+  border-width: 2px;
+}
+
+.text-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #696969;
+    padding: 2rem;
+}
+
+.text__wrapper {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 50px 0 45px;
+  }
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
