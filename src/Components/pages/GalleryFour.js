@@ -31,7 +31,7 @@ export default function GalleryFour(){
         }else {
             elem.classList.remove("active");
         }
-        if(window.innerWidth <= 960)
+        if(window.innerWidth <= 500)
         {
             if(offset > 15)
             {
