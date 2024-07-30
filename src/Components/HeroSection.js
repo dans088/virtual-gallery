@@ -5,6 +5,21 @@ import { Link } from 'react-router-dom';
 import './HeroSection.css';
 
 
+document.addEventListener('DOMContentLoaded', function () {
+  var videoElements = document.querySelectorAll('video');
+
+  videoElements.forEach(function(videoElement) {
+    videoElement.controls = false;
+
+    videoElement.addEventListener('play', function () {
+      this.controls = false;
+    });
+
+    videoElement.addEventListener('pause', function () {
+      this.controls = false;
+    });
+  });
+});
 
 
 function HeroSection() {
