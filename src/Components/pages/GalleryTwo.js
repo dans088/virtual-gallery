@@ -31,6 +31,15 @@ export default function GalleryTwo(){
         }else {
             elem.classList.remove("active");
         }
+        if(window.innerWidth <= 960)
+        {
+            if(offset > 15)
+            {
+                elem.classList.add("active");
+            }else{
+                elem.classList.remove("active");
+            }
+        }
         
     }, [offset]);
 

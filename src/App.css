@@ -1,11 +1,11 @@
-  html { 
+  html, body { 
     scroll-behavior: smooth; 
     overflow-x: hidden;
+    max-width: 100%;
   }
 
   body::-webkit-scrollbar{
     display: none;
-    overflow-x: hidden;
   }
 
 * {

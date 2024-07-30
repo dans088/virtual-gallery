@@ -6,8 +6,8 @@ video {
     z-index: -1; /*ensure not to cover other stuff */
 }
 
-video::-webkit-media-controls-start-playback-button {
-    display: none;
+video::-webkit-media-controls{
+    display:none !important;
 }
 
 .hero-container {
