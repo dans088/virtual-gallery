@@ -99,7 +99,7 @@
       height: 500px;
     }
     .slide.active{
-      transform: scale(60%, 70%);   
+      transform: scale(55%, 60%);   
     }
 }
 
