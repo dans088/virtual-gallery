@@ -11,9 +11,7 @@ function Footer() {
         <p className='footer-subscription-heading'>
             Join the newsletter to receive a notification each time a new drawing is uploaded
         </p>
-        <p className='footer-subscription-text'>
-            You can unsubscribe at any time
-        </p>
+        
         <div className='input-areas'>
             <form>
                 <input 
@@ -29,11 +27,11 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
-                <h2 style={{position: 'relative', left:'-10px'}}>About Me</h2>
+                <h2 style={{position: 'relative', left:'-10px'}}>About Me:</h2>
                 <Link to='/aboutMe'>How it works</Link> 
             </div>
             <div className='footer-link-items'>
-                <h2>Contact</h2>
+                <h2>Contact:</h2>
                 <Link to='mailto:daniel.atilano@live.com'>
                     <i class="fa-solid fa-envelope" style={{position: 'relative', right:'-42px', color: '#ffffff'}}></i>
                 </Link>
