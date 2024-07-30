@@ -84,11 +84,25 @@
     padding: 0;
   }
 
-  @media screen and (max-width: 960px){
-
+  @media screen and (max-width: 450px){
+    .slider{
+      height: 600px;
+    }
     .slide.active{
-      transform: scale(50%, 60%);
-        
+      transform: scale(30%, 40%);   
+    }
+  }
+
+  @media screen and (max-width: 800px){
+
+    .slider{
+      height: 800px;
+    }
+    .slide.active{
+      transform: scale(60%, 70%);   
     }
 }
+
+ 
+
 

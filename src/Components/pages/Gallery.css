@@ -31,13 +31,22 @@
     text-shadow: 0px 0px 27px rgba(66,66,66,.75);
 } 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 450px){
 
     .gallery-container{
      height: 110vh;
-     width: 450px;
+     width: 350px;
     }
 }
+
+@media screen and (max-width: 800px){
+
+    .gallery-container{
+     height: 110vh;
+     width: 670px;
+    }
+}
+
 
 
   
