@@ -32,12 +32,6 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
-  //change language hook
-  const [t, i18n] = useTranslation("global");
-
-  const handleChangeLanguage = (lang: string) => {
-      i18n.changeLanguage(lang);
-  };
  
 
   return (
