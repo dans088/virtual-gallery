@@ -6,9 +6,29 @@ video {
     z-index: -1; /*ensure not to cover other stuff */
 }
 
-video::-webkit-media-controls-start-playback-button {
-    display: none !important;
-}
+*::-webkit-media-controls-panel {
+
+    display: none!important;
+  
+    -webkit-appearance: none;
+  
+  }
+  
+  *::--webkit-media-controls-play-button {
+  
+    display: none!important;
+  
+    -webkit-appearance: none;
+  
+  }
+  
+  *::-webkit-media-controls-start-playback-button {
+  
+    display: none!important;
+  
+    -webkit-appearance: none;
+  
+  }
 
 .hero-container {
     /*background: url('../public/Dibujos/01123.jpg') center center/cover

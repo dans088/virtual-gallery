@@ -84,7 +84,7 @@
     padding: 0;
   }
 
-  @media screen and (max-width: 450px){
+  @media screen and (max-width: 500px){
     .slider{
       height: 600px;
     }
@@ -93,10 +93,10 @@
     }
   }
 
-  @media screen and (max-width: 800px){
+  @media (min-width:500px) and (max-width: 800px){
 
     .slider{
-      height: 800px;
+      height: 500px;
     }
     .slide.active{
       transform: scale(60%, 70%);   

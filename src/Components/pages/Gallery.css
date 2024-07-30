@@ -31,7 +31,7 @@
     text-shadow: 0px 0px 27px rgba(66,66,66,.75);
 } 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
 
     .gallery-container{
      height: 110vh;
@@ -39,11 +39,11 @@
     }
 }
 
-@media screen and (max-width: 800px){
+@media (min-width:500px) and (max-width: 800px){
 
     .gallery-container{
      height: 110vh;
-     width: 670px;
+     width: 650px;
     }
 }
 
