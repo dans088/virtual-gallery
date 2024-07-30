@@ -29,7 +29,7 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
-                <h2>About Me</h2>
+                <h2 style={{position: 'relative', left:'-10px'}}>About Me</h2>
                 <Link to='/aboutMe'>How it works</Link> 
             </div>
             <div className='footer-link-items'>
@@ -53,6 +53,7 @@ function Footer() {
                     style={{
                         position: 'relative', 
                         top: '10px',
+                        left: '-10px',
                         maxWidth:'100px'}}
                     />
                 </Link>

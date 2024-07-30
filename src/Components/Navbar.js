@@ -38,7 +38,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
         <Link to ='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src={myLogo} className ='navbar-logo' alt ="signature" style={{position: 'sticky', top:'-20px', left:'30px', maxWidth:'218px'}}/>
+          <img src={myLogo} alt ="signature" style={{position: 'sticky', maxWidth:'218px'}}/>
         </Link> 
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

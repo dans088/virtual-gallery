@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../App.css'
 import Carousel from '../Carousel'
 import './Gallery.css';
 import {SliderData} from '../../Data/SliderData_4'

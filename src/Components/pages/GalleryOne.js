@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../App.css'
 import Carousel from '../Carousel'
 import './Gallery.css';
 import {SliderData} from '../../Data/SliderData_1'
@@ -27,6 +26,15 @@ export default function GalleryOne(props){
             elem.classList.add("active");
         }else {
             elem.classList.remove("active");
+        }
+        if (window.innerWidth <= 960)
+        {
+            if(offset > 25)
+            {
+                elem.classList.add("active");
+            }else{
+                elem.classList.remove("active");
+            }
         }
         
     }, [offset]);

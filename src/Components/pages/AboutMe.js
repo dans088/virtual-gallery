@@ -1,6 +1,5 @@
 import React from 'react'
 import './AboutMe.css'
-import '../../App.css'
 import { useTranslation } from 'react-i18next';
 import { Button } from '../Button';
 
@@ -22,7 +21,7 @@ export default function AboutMe(){
                 <Button onClick={()=>handleChangeLanguage("es")}>ES</Button>
                 <Button onClick={()=>handleChangeLanguage("fr")}>FR</Button>
             </div>
-            <div style ={{whiteSpace: "pre-wrap"}}className='text-wrapper'>
+            <div style ={{whiteSpace: "pre-wrap"}}className='text__wrapper'>
                 <p>{t("aboutMe.message")}</p>
             </div>
         </div>
