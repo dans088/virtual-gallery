@@ -27,11 +27,8 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
-                <h2 style={{position: 'relative', left:'-10px'}}>About Me:</h2>
-                <Link to='/aboutMe'>How it works</Link> 
-            </div>
-            <div className='footer-link-items'>
                 <h2>Contact:</h2>
+                <p>Daniel Atilano | Artist</p>
                 <Link to='mailto:daniel.atilano@live.com'>
                     <i class="fa-solid fa-envelope" style={{position: 'relative', right:'-42px', color: '#ffffff'}}></i>
                 </Link>

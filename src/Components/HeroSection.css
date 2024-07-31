@@ -6,16 +6,11 @@ video {
     z-index: -1; /*ensure not to cover other stuff */
 }
 
-video::-webkit-media-controls-start-playback-button {
-    opacity: 0;
-    position: absolute; 
-    top: -9999px;
-}
   
 .hero-container {
     /*background: url('../public/Dibujos/01123.jpg') center center/cover
     no-repeat; */
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     display: flex;
     flex-direction: column;

@@ -4,153 +4,189 @@
     },
     "slider1image0":{
         "title": "La condición hipermoderna", 
-        "format" : "Dibujo",
-        "dimensions" : "21.59 x 27.94cm",
-        "medium" : "Lápiz"
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "27.94 x 21.59 cm",
+        "year" : "2020"
     },
     "slider1image1":{
-        "title": "Fe", 
-        "format" : "Dibujo",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Lápiz"
+        "title": "La sombra del Padre", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2022"
     },
     "slider1image2":{
-        "title": "Libertad", 
-        "format" : "Dibujo",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Lápiz"
+        "title": "Eco", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2022"
     },
     "slider1image3":{
-        "title": "Consciencia", 
-        "format" : "Dibujo",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Lápiz"
+        "title": "Asenso", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2021"
     },
     "slider1image4":{
-       "title": "Devenir", 
-        "format" : "Dibujo",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Lápiz"
-    },   
+        "title": "Angustia", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2021"
+    },
     "slider1image5":{
-        "title": "Entre mar y tierra", 
-        "format" : "Dibujo",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Carbón y lápiz"
+        "title": "Fe", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2022"
     },
     "slider1image6":{
+        "title": "Libertad", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2022"
+    },
+    "slider1image7":{
+        "title": "Consciencia", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2022"
+    },
+    "slider1image8":{
+       "title": "Devenir", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2022"
+    },   
+    "slider1image9":{
+        "title": "Entre mar y tierra", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider1image10":{
         "title": "Sígueme el juego", 
-        "format" : "Dibujo",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Carbón y lápiz"
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider2image0":{
         "title": "Un dos", 
-        "format" : "Dibujo",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Carbón y lápiz"
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2024"
     },
     "slider2image1":{
         "title": "0,1,1,2,3", 
-        "format" : "Dibujo",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Carbón, lápiz y colores"
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider2image2":{
         "title": "0,1,1,2,3...", 
-        "format" : "Dibujo",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Carbón y lápiz"
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider2image3":{
         "title": "2,2,4", 
-        "format" : "Dibujo",
-        "dimensions" : "1500 x 1000cm",
-        "medium" : "Carbón, lápiz y colores"
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "1000 x 1500 cm",
+        "year" : "2024"
     },
     "slider2image4":{
         "title": "0,1,1,2,3", 
-        "format" : "Dibujo",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Carbón, lápiz y colores"
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider2image5":{
-        "title": "De Daniel, Por Daniel, Para Daniel", 
-        "format" : "Dibujo",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Carbón, lápiz y colores"
+        "title": "De, Por, Para Daniel", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider3image0":{
-        "title": "La fuente", 
-        "format" : "Dibujo",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Carbón y lápiz"
+        "title": "Categorías", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image1":{
-        "title": "Voluntad", 
-        "format" : "Dibujo",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Carbón y lápiz"
+        "title": "Gustos", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2021"
     },
     "slider3image2":{
-        "title": "Tacto", 
-        "format" : "Drawing",
-        "dimensions" : "35.6 x 43,2cm",
-        "medium" : "Carbón y colores"
+        "title": "La fuente", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2023"
     },
     "slider3image3":{
-        "title": "Pacto", 
-        "format" : "Dibujo",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Carbón y colores"
+        "title": "Voluntad", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image4":{
-        "title": "Sol Negro", 
-        "format" : "Dibujo",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Carbón"
+        "title": "Tacto", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image5":{
-        "title": "Hábitos", 
-        "format" : "Dibujo",
-        "dimensions" : "55 x 75cm",
-        "medium" : "Carbón y colores"
+        "title": "Pacto", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image6":{
-        "title": "Templo de la infancia", 
-        "format" : "Dibujo",
-        "dimensions" : "55 x 75cm",
-        "medium" : "Carbón y colores"
+        "title": "Sol Negro", 
+        "format" : "Carbón sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider3image7":{
+        "title": "Hábitos", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider3image8":{
+        "title": "Templo de la infancia", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider3image9":{
         "title": "Cosas que desaprendí", 
-        "format" : "Dibujo",
-        "dimensions" : "1005 x 1000cm",
-        "medium" : "Carbón y colores"
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "1000 x 1015 cm",
+        "year" : "2024"
     },
     "slider4image0":{
         "title": "Mitad Completa", 
-        "format" : "Dibujo",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Carbón"
+        "format" : "Carbón sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2024"
     },
     "slider4image1":{
         "title": "Lucy", 
-        "format" : "Dibujo",
-        "dimensions" : "23 x 20cm",
-        "medium" : "Lápiz"
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "20 x 23 cm",
+        "year" : "2024"
     },
     "slider4image2":{
         "title": "Gniy/Gnay", 
-        "format" : "Dibujo",
-        "dimensions" : "297 x 420cm",
-        "medium" : "Carbón y lápiz"
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "297 x 420 cm",
+        "year" : "2024"
     },
     "slider4image3":{
         "title": "Sello", 
-        "format" : "Dibujo",
-        "dimensions" : "38 x 25cm",
-        "medium" : "Carbón y lápiz"
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "25 x 38 cm",
+        "year" : "2024"
     }
 
 }

@@ -5,6 +5,22 @@ export const SliderData = [
         alt:"large-vertical"
     },
     {
+        image:"Dibujos/SombraPadre.jpg",
+        alt:"large-vertical"
+    },
+    {
+        image:"Dibujos/eco.jpg",
+        alt:"large-horizontal"
+    },
+    {
+        image:"Dibujos/asenso(1).jpg",
+        alt:"large-horizontal"
+    },
+    {
+        image:"Dibujos/angustia.jpg",
+        alt:"large-horizontal"
+    },
+    {
         image:"Dibujos/Foi.jpg",
         alt:"large-horizontal"
     },

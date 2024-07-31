@@ -4,153 +4,189 @@
     },
     "slider1image0":{
         "title": "The hypermodern condition", 
-        "format" : "Drawing",
-        "dimensions" : "21.59 x 27.94cm",
-        "medium" : "Pencil"
+        "format" : "Pencil on paper",
+        "dimensions" : "27.94 x 21.59 cm",
+        "year" : "2020"
     },
     "slider1image1":{
-        "title": "Faith", 
-        "format" : "Drawing",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Pencil"
+        "title": "The shadow of the Father", 
+        "format" : "Pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2022"
     },
     "slider1image2":{
-        "title": "Freedom", 
-        "format" : "Drawing",
-        "dimensions" : "43.2cm x 35.6cm",
-        "medium" : "Pencil"
+        "title": "Eco", 
+        "format" : "Pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2022"
     },
     "slider1image3":{
-        "title": "Conscience", 
-        "format" : "Drawing",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Pencil"
+        "title": "Promotion", 
+        "format" : "Pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2021"
     },
     "slider1image4":{
-       "title": "Becoming", 
-        "format" : "Drawing",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Pencil"
-    },   
+        "title": "Anguish", 
+        "format" : "Pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2021"
+    },
     "slider1image5":{
-        "title": "In between heaven and earth", 
-        "format" : "Drawing",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Charcoal and pencil"
+        "title": "Faith", 
+        "format" : "Pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2022"
     },
     "slider1image6":{
+        "title": "Freedom", 
+        "format" : "Pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "20222"
+    },
+    "slider1image7":{
+        "title": "Conscience", 
+        "format" : "Pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2022"
+    },
+    "slider1image8":{
+       "title": "Becoming", 
+        "format" : "Pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2022"
+    },   
+    "slider1image9":{
+        "title": "In between heaven and earth", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider1image10":{
         "title": "Follow my lead", 
-        "format" : "Drawing",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Charcoal and pencil"
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider2image0":{
         "title": "One two", 
-        "format" : "Drawing",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Charcoal and pencil"
+        "format" : "Pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider2image1":{
         "title": "0,1,1,2,3", 
-        "format" : "Drawing",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Charcoal, pencil and color"
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider2image2":{
         "title": "0,1,1,2,3...", 
-        "format" : "Drawing",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Charcoal and color"
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider2image3":{
         "title": "2,2,4", 
-        "format" : "Drawing",
-        "dimensions" : "1500 x 1000cm",
-        "medium" : "Charcoal, pencil and color"
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "1000 x 1500 cm",
+        "year" : "2024"
     },
     "slider2image4":{
         "title": "0,1,1,2,3", 
-        "format" : "Drawing",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Charcoal, pencil and color"
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider2image5":{
         "title": "Ever me", 
-        "format" : "Drawing",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Charcoal, pencil and color"
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider3image0":{
-        "title": "The Source", 
-        "format" : "Drawing",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Charcoal and pencil"
+        "title": "Categories", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image1":{
-        "title": "Will", 
-        "format" : "Drawing",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Charcoal and pencil"
+        "title": "Tastes", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2023"
     },
     "slider3image2":{
-        "title": "Touch", 
-        "format" : "Drawing",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Charcoal and color pencils"
+        "title": "The Source", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2023"
     },
     "slider3image3":{
-        "title": "Pact", 
-        "format" : "Drawing",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Charcoal and color pencils"
+        "title": "Will", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image4":{
-        "title": "The Black Sun", 
-        "format" : "Drawing",
-        "dimensions" : "43.2 x 35.6cm",
-        "medium" : "Charcoal"
+        "title": "Touch", 
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image5":{
-        "title": "Habits", 
-        "format" : "Drawing",
-        "dimensions" : "55 x 75cm",
-        "medium" : "Charcoal and color pencils"
+        "title": "Pact", 
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image6":{
-        "title": "Childhood temple", 
-        "format" : "Drawing",
-        "dimensions" : "55 x 75cm",
-        "medium" : "Charcoal and color pencils"
+        "title": "The Black Sun", 
+        "format" : "Charcoal on paper",
+        "dimensions" : "35.6x 43.2 cm",
+        "year" : "2024"
     },
     "slider3image7":{
+        "title": "Habits", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider3image8":{
+        "title": "Childhood temple", 
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider3image9":{
         "title": "Things I have unlearned", 
-        "format" : "Drawing",
-        "dimensions" : "1005 x 1000cm",
-        "medium" : "Charcoal and color pencils"
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "1000 x 1015 cm",
+        "year" : "2024"
     },
     "slider4image0":{
         "title": "Fragmented whole", 
-        "format" : "Drawing",
-        "dimensions" : "35.6 x 43.2cm",
-        "medium" : "Charcoal"
+        "format" : "Charcoal on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2024"
     },
     "slider4image1":{
         "title": "Lucy", 
-        "format" : "Drawing",
-        "dimensions" : "23 x 20cm",
-        "medium" : "Pencil"
+        "format" : "Pencil on paper",
+        "dimensions" : "20 x 23 cm",
+        "year" : "2024"
     },
     "slider4image2":{
         "title": "Gniy/Gnay", 
-        "format" : "Drawing",
-        "dimensions" : "297 x 420cm",
-        "medium" : "Charcoal and pencil"
+        "format" : "Pencil on paper",
+        "dimensions" : "297 x 420 cm",
+        "year" : "2024"
     },
     "slider4image3":{
         "title": "Seal", 
-        "format" : "Drawing",
-        "dimensions" : "38 x 25cm",
-        "medium" : "Charcoal and pencil"
+        "format" : "Pencil on paper",
+        "dimensions" : "25 x 38 cm",
+        "year" : "2024"
     }
 
 }

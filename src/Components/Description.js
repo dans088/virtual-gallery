@@ -26,7 +26,7 @@ const Description = (props) => {
     var imageTitle = galleryName + ".title";
     var imageFormat = galleryName + ".format";
     var imageDimensions= galleryName + ".dimensions";
-    var imageMedium= galleryName + ".medium";
+    var imageYear= galleryName + ".year";
     
     var imageNumber;
     
@@ -48,7 +48,7 @@ const Description = (props) => {
         imageTitle = replaceChar(imageTitle, 12, imageNumber);
         imageFormat = replaceChar(imageFormat, 12, imageNumber);
         imageDimensions= replaceChar(imageDimensions, 12, imageNumber);
-        imageMedium= replaceChar(imageMedium, 12, imageNumber);
+        imageYear= replaceChar(imageYear, 12, imageNumber);
     }
     
     
@@ -77,8 +77,8 @@ const Description = (props) => {
             <div className ='dimensions'>
                 <h1>{t(imageDimensions)}</h1> 
             </div>
-            <div className ='medium'>
-                <h1>{t(imageMedium)}</h1> 
+            <div className ='year'>
+                <h1>{t(imageYear)}</h1> 
             </div>
         </div>
     )

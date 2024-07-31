@@ -8,7 +8,7 @@ import './HeroSection.css';
 
 function HeroSection() {
     return (
-        <div className='hero-container'>
+        <div id ="home" className='hero-container'>
           <video autoPlay loop muted
             src =  'videos/video.mp4'
             type = "video/mp4"

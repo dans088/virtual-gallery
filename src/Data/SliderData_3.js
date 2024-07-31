@@ -1,5 +1,12 @@
 export const SliderData = [
-
+    {
+        image:"Dibujos/categorias.jpg",
+        alt:"large-vertical"
+    },
+    {
+        image:"Dibujos/goustos.jpg",
+        alt:"large-horizontal"
+    },
     {
         image:"Dibujos/Source.jpg",
         alt:"large-horizontal"
