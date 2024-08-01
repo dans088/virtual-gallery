@@ -84,14 +84,18 @@
     padding: 0;
   }
 
-  @media screen and (max-width: 287px){
-    .slider{
-      height: 600px;
+  
+
+  @media only screen 
+    and (width: 287px) 
+    and (height: 926px){
+      .slider{
+        height: 600px;
+      }
+      .slide.active{
+        transform: scale(30%, 40%);   
+      }
     }
-    .slide.active{
-      transform: scale(30%, 40%);   
-    }
-  }
 
   @media (min-width:500px) and (max-width: 800px){
 
