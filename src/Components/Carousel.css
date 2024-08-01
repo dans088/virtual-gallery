@@ -84,7 +84,7 @@
     padding: 0;
   }
 
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 287px){
     .slider{
       height: 600px;
     }
@@ -101,6 +101,19 @@
     .slide.active{
       transform: scale(55%, 60%);   
     }
+
+    @media only screen 
+    and (width: 428px) 
+    and (height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+      .slider{
+        height: 600px;
+      }
+      .slide.active{
+        transform: scale(30%, 40%);   
+      }
+    }
+
 }
 
  
