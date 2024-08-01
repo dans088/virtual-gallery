@@ -28,7 +28,6 @@ function Footer() {
         <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
                 <h2>Contact:</h2>
-                <p>Daniel Atilano | Artist</p>
                 <Link to='mailto:daniel.atilano@live.com'>
                     <i class="fa-solid fa-envelope" style={{position: 'relative', right:'-42px', color: '#ffffff'}}></i>
                 </Link>
@@ -53,7 +52,7 @@ function Footer() {
                     />
                 </Link>
             </div>
-            <small className='website-rights'> DANIEL ATILANO © 2024</small>
+            <small className='website-rights'> DANIEL ATILANO | Artist © 2024</small>
             <div className='social-icons'>
                 <Link className='social-icon-link facebook'
                 to= "https://m.facebook.com/daniel.atilano.18/"
