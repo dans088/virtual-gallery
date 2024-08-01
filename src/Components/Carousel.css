@@ -84,18 +84,14 @@
     padding: 0;
   }
 
-  
-
-  @media only screen 
-    and (width: 287px) 
-    and (height: 926px){
-      .slider{
-        height: 600px;
-      }
-      .slide.active{
-        transform: scale(30%, 40%);   
-      }
+  @media screen and (max-width: 500px){
+    .slider{
+      height: 600px;
     }
+    .slide.active{
+      transform: scale(30%, 40%);   
+    }
+  }
 
   @media (min-width:500px) and (max-width: 800px){
 
@@ -106,17 +102,6 @@
       transform: scale(55%, 60%);   
     }
 
-    @media only screen 
-    and (width: 428px) 
-    and (height: 926px) 
-    and (-webkit-device-pixel-ratio: 3) { 
-      .slider{
-        height: 600px;
-      }
-      .slide.active{
-        transform: scale(30%, 40%);   
-      }
-    }
 
 }
 

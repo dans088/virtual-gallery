@@ -31,9 +31,7 @@
     text-shadow: 0px 0px 27px rgba(66,66,66,.75);
 } 
 
-@media only screen 
-    and (width: 287px) 
-    and (height: 590px){
+@media screen and (max-width: 500px){
 
     .gallery-container{
      height: 110vh;
@@ -48,15 +46,6 @@
      width: 650px;
     }
 
-@media only screen 
-and (width: 428px) 
-and (height: 926px) 
-and (-webkit-device-pixel-ratio: 3) { 
-    .gallery-container{
-        height: 110vh;
-        width: 80px;
-    }
-}
 
 }
 
