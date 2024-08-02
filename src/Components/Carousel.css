@@ -10,8 +10,6 @@
 .image-zoom{
     height: 500px;
     transform: scale(2, 2);
-    
-    
 }
 
 .image-large-horizontal {
@@ -84,6 +82,8 @@
     padding: 0;
   }
 
+  /*
+
   @media screen and (max-width: 500px){
     .slider{
       height: 600px;
@@ -104,6 +104,16 @@
 
 
 }
+*/
+
+@media screen and (max-width: 960px){
+
+  .slider.active {
+      width: 50vw;
+      height: calc(var(--vh, 1vh) * 50);
+    }
+  }
+
 
  
 

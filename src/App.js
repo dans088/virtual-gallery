@@ -15,8 +15,16 @@ import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
 
+  const resizeOps = () => {
+    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+  };
+
+  resizeOps();
+  window.addEventListener("resize", resizeOps);
+
 
   return (
+    
     
     <>
       <Router>
