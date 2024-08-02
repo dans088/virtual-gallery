@@ -33,7 +33,7 @@ export default function GalleryFour(){
         }
         if(window.innerWidth <= 1024)
         {
-            if(offset > 15)
+            if(offset > 50)
             {
                 elem.classList.add("active");
             }else{

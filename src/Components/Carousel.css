@@ -91,6 +91,7 @@
     .slide.active{
       transform: scale(50%, 70%);
       width: 650px;
+      margin-right: 1rem;
     }
 
     .left-arrow{
