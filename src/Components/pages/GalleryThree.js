@@ -32,7 +32,7 @@ export default function GalleryThree(){
         }else {
             elem.classList.remove("active");
         }
-        if(window.innerWidth <= 500)
+        if(window.innerWidth <= 1024)
         {
             if(offset > 15)
             {

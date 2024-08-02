@@ -91,7 +91,8 @@
     }
 
     .slide.active{
-      transform: scale(65%, 90%);
+      transform: scale(60%, 80%);
+      width: 650px;
     }
   }
 
