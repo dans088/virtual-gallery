@@ -83,16 +83,22 @@
   }
 
  
-
+  
   @media screen and (max-width: 1024px) {
 
-    .slider{
-      height: 1000px;
-    }
+    
 
     .slide.active{
-      transform: scale(60%, 80%);
+      transform: scale(50%, 70%);
       width: 650px;
+    }
+
+    .left-arrow{
+      display: none;
+    }
+
+    .right-arrow{
+      display: none;
     }
   }
 

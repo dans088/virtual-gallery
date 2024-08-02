@@ -31,15 +31,11 @@
     text-shadow: 0px 0px 27px rgba(66,66,66,.75);
 }
 
-@media only screen and (min-width: 1200px) {
-    .gallery-container {
-      width: 84%;
-    }
-  }
+
 
 @media screen and (max-width: 1024px) {
     .gallery-container {
-    height: 150vh;
+    height: 110vh;
     width: 400px;
     }
 }
