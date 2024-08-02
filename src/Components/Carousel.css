@@ -84,10 +84,14 @@
 
  
 
-  @media only screen and (max-width: 1024px) {
-  
+  @media screen and (max-width: 1024px) {
+
+    .slider{
+      height: 1000px;
+    }
+
     .slide.active{
-      transform: scale(70%, 90%);
+      transform: scale(65%, 90%);
     }
   }
 
