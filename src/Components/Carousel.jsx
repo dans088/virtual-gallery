@@ -47,8 +47,8 @@ const Carousel = ({ data }) => {
     const onTouchEnd = () => {
     if (!touchStart || !touchEnd) return
     const distance = touchStart - touchEnd
-    const isLeftSwipe = distance > minSwipeDistance
-    const isRightSwipe = distance < -minSwipeDistance
+    const isLeftSwipe = distance > minSwipeDistance + 50
+    const isRightSwipe = distance < -minSwipeDistance + 50
     if (isLeftSwipe){
         console.log('swipe', isLeftSwipe ? 'left' : 'right')
         prevSlide();
