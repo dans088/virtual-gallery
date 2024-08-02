@@ -87,7 +87,7 @@
   @media only screen and (max-width: 1024px) {
   
     .slide.active{
-      transform: scale(75%, 90%);
+      transform: scale(70%, 90%);
     }
   }
 
@@ -100,6 +100,7 @@
       transform: scale(30%, 40%);   
     }
   }
+  */
 
   @media (min-width:500px) and (max-width: 960px){
 
@@ -109,10 +110,8 @@
     .slide.active{
       transform: scale(55%, 60%);   
     }
-
-
 }
-*/
+
 
 
 
