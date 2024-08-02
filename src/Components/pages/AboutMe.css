@@ -1,12 +1,13 @@
 .about{
     padding: 4rem;
-    height: 400vh;
+    height: 700vh;
     background: #fcf7f6;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 2em;
+    margin-top: 2em;
   }
 p {
   
@@ -14,7 +15,7 @@ p {
   text-shadow: 0px 0px 27px rgba(66,66,66,.75);
   border-radius: 14px;
   padding: 23px;
-  font-size: 25px;
+  font-size: 18px;
   border-width: 2px;
 }
 

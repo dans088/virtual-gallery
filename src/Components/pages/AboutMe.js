@@ -2,6 +2,7 @@ import React from 'react'
 import './AboutMe.css'
 import { useTranslation } from 'react-i18next';
 import { Button } from '../Button';
+import '../Navbar'
 
 export default function AboutMe(){
 

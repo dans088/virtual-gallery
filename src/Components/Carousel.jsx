@@ -8,6 +8,7 @@ import Description from'./Description';
 
 const Carousel = ({ data }) => {
     
+    //slider hook
     const [current, setCurrent] = useState(0);
     //zoom hook
     const [isZoom, setIsZoom] = useState(false);
@@ -40,6 +41,7 @@ const Carousel = ({ data }) => {
     const onTouchStart = (e) => {
     setTouchEnd(null) // otherwise the swipe is fired even with usual touch events
     setTouchStart(e.targetTouches[0].clientX)
+
     }
 
     const onTouchMove = (e) => setTouchEnd(e.targetTouches[0].clientX)

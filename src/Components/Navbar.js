@@ -7,7 +7,6 @@ import myLogo from '../logo_transparent.png';
 
 
 
-
 function Navbar() {
 
   const [click, setClick] = useState(false);
@@ -36,7 +35,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-        <a href ='#home' className='navbar-logo' onClick={closeMobileMenu}>
+        <a href ='/' className='navbar-logo' onClick={closeMobileMenu}>
           <img src={myLogo} alt ="signature" style={{position: 'sticky', maxWidth:'218px'}}/>
         </a> 
           <div className='menu-icon' onClick={handleClick}>
@@ -45,7 +44,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <a
-                href='#home'
+                href='/'
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
@@ -54,7 +53,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <a
-                href='#gallery'
+                href='/#gallery'
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
@@ -63,7 +62,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <a
-                href='#contact'
+                href='/#contact'
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
                 
