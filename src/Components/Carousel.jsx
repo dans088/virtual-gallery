@@ -14,9 +14,12 @@ const Carousel = ({ data }) => {
     const [isZoom, setIsZoom] = useState(false);
 
     //swipe hooks
-    const [touchStart, setTouchStart] = useState(null);
-    const [touchEnd, setTouchEnd] = useState(null);
+    const [touchStartX, setTouchStartX] = useState(null);
+    const [touchEndX, setTouchEndX] = useState(null);
     
+    
+    const [touchStartY, setTouchStartY] = useState(null)
+    const [touchEndY, setTouchEndY] = useState(null)
 
     const length = data.length;
 
@@ -39,27 +42,49 @@ const Carousel = ({ data }) => {
     const minSwipeDistance = 50 
 
     const onTouchStart = (e) => {
-    setTouchEnd(null) // otherwise the swipe is fired even with usual touch events
-    setTouchStart(e.targetTouches[0].clientX)
-
+        setTouchEndX(null) // otherwise the swipe is fired even with usual touch events
+        setTouchStartX(e.targetTouches[0].clientX)
+        setTouchEndY(null)
+        setTouchStartY(e.targetTouches[0].clientY)
     }
 
-    const onTouchMove = (e) => setTouchEnd(e.targetTouches[0].clientX)
+    function onTouchMove(e) {
+        setTouchEndX(e.targetTouches[0].clientX)
+        setTouchEndY(e.targetTouches[0].clientY)
+    }
 
-    const onTouchEnd = () => {
+    function onTouchEnd() {
+        if (touchStartX && touchEndX) swipeHorizontal()
+    }
+
+    const swipeHorizontal = () => {
+    /*
     if (!touchStart || !touchEnd) return
     const distance = touchStart - touchEnd
     const isLeftSwipe = distance > minSwipeDistance + 50
     const isRightSwipe = distance < -minSwipeDistance + 50
-    if (isLeftSwipe){
-        console.log('swipe', isLeftSwipe ? 'left' : 'right')
-        prevSlide();
-    }else{
-        nextSlide();
-        console.log('swipe', isRightSwipe ? 'left' : 'right')
-    }
+    */
+
+        const xDistance = touchStartX - touchEndX
+        const yDistance = touchStartY - touchEndY
+        if (Math.abs(yDistance) >= Math.abs(xDistance)) {
+            return;
+        }
+
+        const isLeftSwipe = xDistance > minSwipeDistance + 50
+        const isRightSwipe = xDistance < -minSwipeDistance + 50
+
+
+        if (isLeftSwipe){
+            console.log('swipe', isLeftSwipe ? 'left' : 'right')
+            prevSlide();
+        }else{
+            nextSlide();
+            console.log('swipe', isRightSwipe ? 'left' : 'right')
+        }
 
     }
+
 
    
     //location.pathname.match(/gallery/)

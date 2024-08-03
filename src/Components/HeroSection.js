@@ -3,13 +3,10 @@ import '../App.css';
 import {Button} from './Button';
 import { Link } from 'react-router-dom';
 import './HeroSection.css';
-import UserBrowserDetection from './UserBrowserDetection';
+
 
 
 function HeroSection() {
-
-    const browser = UserBrowserDetection();
-    console.log("browser: ", browser);
 
     return (
         <div id ="home" className='hero-container'>
