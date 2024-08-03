@@ -86,12 +86,22 @@
   
   @media screen and (max-width: 1024px) {
 
+    .image-large-horizontal{
+      width: 100%;
+    }
+
+    .image-large-vertical{
+      width: 100%;
+    }
+
+    .slider{
+      height: 60rem;
+    }
     
 
     .slide.active{
-      transform: scale(50%, 70%);
-      width: 650px;
-      margin-right: 1rem;
+      transform: scale(90%, 65%);
+      width: 100%;
     }
 
     .left-arrow{
@@ -102,8 +112,8 @@
       display: none;
     }
   }
-
   /*
+  
   @media screen and (max-width: 500px){
     .slider{
       height: 600px;
@@ -116,12 +126,18 @@
 
   @media (min-width:500px) and (max-width: 960px){
 
+    .image-large-horizontal{
+      transform: scale(70%, 80%);
+    }
+
+    .image-large-vertical{
+      transform: scale(40%, 85%);
+    }
+
     .slider{
-      height: 500px;
+      height: 480px;
     }
-    .slide.active{
-      transform: scale(55%, 60%);   
-    }
+    
 }
 
 

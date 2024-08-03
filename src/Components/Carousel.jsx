@@ -58,13 +58,7 @@ const Carousel = ({ data }) => {
     }
 
     const swipeHorizontal = () => {
-    /*
-    if (!touchStart || !touchEnd) return
-    const distance = touchStart - touchEnd
-    const isLeftSwipe = distance > minSwipeDistance + 50
-    const isRightSwipe = distance < -minSwipeDistance + 50
-    */
-
+ 
         const xDistance = touchStartX - touchEndX
         const yDistance = touchStartY - touchEndY
         if (Math.abs(yDistance) >= Math.abs(xDistance)) {

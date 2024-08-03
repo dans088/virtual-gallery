@@ -36,9 +36,10 @@
 @media screen and (max-width: 1024px) {
     .gallery-container {
     height: 110vh;
-    width: 400px;
+    width: 100%;
     }
 }
+
 
 /*
 @media screen and (max-width: 500px){
@@ -53,8 +54,8 @@
 @media (min-width:500px) and (max-width: 960px){
 
     .gallery-container{
-     height: 150vh;
-     width: 600px;
+     height: 130vh;
+     width: 100%;
     }
 
 }
