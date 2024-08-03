@@ -9,10 +9,10 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div id ="home" className='hero-container'>
-          <video autoPlay loop muted playsinline
+          <video playsinline loop muted autoPlay
             src =  'videos/video.mp4'
             type = "video/mp4"
-            position = "absolute"
+            controls = "false"
           />
 
           <p> Read images as they unfold</p>
