@@ -3,18 +3,23 @@ import '../App.css';
 import {Button} from './Button';
 import { Link } from 'react-router-dom';
 import './HeroSection.css';
-
+import UserBrowserDetection from './UserBrowserDetection';
 
 
 function HeroSection() {
+
+    const browser = UserBrowserDetection();
+    console.log("browser: ", browser);
+
     return (
         <div id ="home" className='hero-container'>
-          <video playsinline loop muted autoPlay
+        
+          <video playsInline loop muted autoPlay
             src =  'videos/video.mp4'
             type = "video/mp4"
-            controls = "false"
+            
           />
-
+          
           <p> Read images as they unfold</p>
           <div className ="hero-btns">
           <Link to='/aboutMe' className='btn-mobile'>
