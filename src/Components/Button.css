@@ -23,6 +23,12 @@
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
   }
+
+
+  .btn--small {
+    padding: 3px 10px;
+    font-size: 8px;
+  }
   
   .btn--medium {
     padding: 8px 20px;
@@ -34,6 +40,7 @@
     font-size: 20px;
   }
   
+  .btn--small:hover,
   .btn--large:hover,
   .btn--medium:hover {
     transition: all 0.3s ease-out;

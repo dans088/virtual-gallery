@@ -17,10 +17,10 @@ export default function AboutMe(){
     <div id = 'aboutMe'className='about'>
         <h1>How it works</h1>
         <div className='text-container'>
-            <div className= 'language-bttns'>
-                <Button onClick={()=>handleChangeLanguage("en")}>EN</Button>
-                <Button onClick={()=>handleChangeLanguage("es")}>ES</Button>
-                <Button onClick={()=>handleChangeLanguage("fr")}>FR</Button>
+            <div className= 'lang-box'>
+                <Button buttonStyle="btn--outline" buttonSize="btn--small" onClick={()=>handleChangeLanguage("en")}>EN</Button>
+                <Button buttonStyle="btn--outline" buttonSize="btn--small" onClick={()=>handleChangeLanguage("es")}>ES</Button>
+                <Button buttonStyle="btn--outline" buttonSize="btn--small" onClick={()=>handleChangeLanguage("fr")}>FR</Button>
             </div>
             <div style ={{whiteSpace: "pre-wrap"}}className='text__wrapper'>
                 <p>{t("aboutMe.message")}</p>

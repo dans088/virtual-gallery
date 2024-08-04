@@ -10,15 +10,15 @@ function Cards() {
             <div className='cards__wrapper'>
              <ul className='cards__items'>
                 <CardItem 
-                  src= "Dibujos/Foi.jpg"
-                  text= "Faith"
-                  label= 'Reciprocity'
+                  src= "Dibujos/libertad(1).jpg"
+                  text= "Reciprocity"
+                  label= 'Freedom'
                   path='/galleryOne'
                 />
                 <CardItem 
                   src= "Dibujos/Un dos.jpg"
                   text= "Syncategorematics"
-                  label= 'Pieces'
+                  label= 'One two'
                   path='/galleryTwo'
                 />
              </ul>
@@ -31,8 +31,8 @@ function Cards() {
                 />
               <CardItem 
                   src= "Dibujos/En-soi.jpg"
-                  text= "Body"
-                  label= 'Core'
+                  text= "Core"
+                  label= 'Fragmented whole'
                   path='/galleryFour'
               />
              </ul>

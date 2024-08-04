@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router-dom'
 import './Description.css'
+import {Button} from './Button'
 
 
 
@@ -65,9 +66,9 @@ const Description = (props) => {
     return (
         <div id='imgDescription' className='child-two'>
             <div className= 'language-bttns'>
-                    <button style={{width:"50px"}} onClick={()=>handleChangeLanguage("en")}>EN</button>
-                    <button style={{width:"50px"}} onClick={()=>handleChangeLanguage("es")}>ES</button>
-                    <button style={{width:"50px"}} onClick={()=>handleChangeLanguage("fr")}>FR</button>    
+                    <Button buttonStyle="btn--outline" buttonSize="btn--small" onClick={()=>handleChangeLanguage("en")}>EN</Button>
+                    <Button buttonStyle="btn--outline" buttonSize="btn--small" onClick={()=>handleChangeLanguage("es")}>ES</Button>
+                    <Button buttonStyle="btn--outline" buttonSize="btn--small" onClick={()=>handleChangeLanguage("fr")}>FR</Button>    
             </div>
             <div className ='title'>
                 <h1>{t(imageTitle)}</h1> 

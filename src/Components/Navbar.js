@@ -60,17 +60,6 @@ function Navbar() {
                 Gallery
               </a>
             </li>
-            <li className='nav-item'>
-              <a
-                href='/#contact'
-                className='nav-links nav-btn'
-                onClick={closeMobileMenu}
-                
-              >
-                
-                Contact
-              </a>
-            </li>
 
 
             <li className='nav-item-mobile'>
@@ -79,7 +68,7 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Sign Up
+                Follow me
               </Link>
             </li>
 
@@ -87,7 +76,7 @@ function Navbar() {
             
             
           </ul>
-          {button && <Link to='/aboutMe'> <Button buttonStyle='btn--outline'>SIGN UP</Button></Link>}
+          {button && <a href='/#contact'> <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Follow Me</Button></a>}
         
            
         </div>

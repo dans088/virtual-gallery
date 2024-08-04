@@ -19,23 +19,26 @@
 @media screen and (max-width: 1024px) {
 
     .title{
-        font-size: 10px;
+        font-size: 7px;
     }
 
     .format{
-        font-size: 8px;
+        font-size: 6px;
     }
 
     .dimensions{
-        font-size: 7px;
+        font-size: 6px;
     }
     
     .year{
-        font-size:7px;
+        font-size:6px;
     }
 
     .language-bttns{
-        text-align: center;
+    
+        margin-left: 14rem;
+        margin-right: 14rem;
+        
     }
 
  
@@ -45,25 +48,25 @@
 
 
     .title{
-        font-size: 10px;
+        font-size: 7px;
         display: inline-block;
         padding: 1rem 1rem;
     }
 
     .format{
-        font-size: 8px;
+        font-size: 6px;
         display: inline-block;
         padding: 1rem 1rem;
     }
 
     .dimensions{
-        font-size: 7px;
+        font-size: 6px;
         display: inline-block;
         padding: 1rem 1rem;
     }
     
     .year{
-        font-size:7px;
+        font-size:6px;
         display: inline-block;
         padding: 1rem 1rem;
     }

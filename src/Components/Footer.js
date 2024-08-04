@@ -9,7 +9,7 @@ function Footer() {
     <div id='contact' className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-            Join the newsletter to receive a notification each time a new drawing is uploaded
+            Get a notification each time a new drawing is uploaded!
         </p>
         
         <div className='input-areas'>
@@ -20,14 +20,14 @@ function Footer() {
                 placeholder='Your Email' 
                 className='footer-input'
                 />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>    
+            <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Subscribe</Button>    
             </form>
         </div>
       </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
-                <h2>Contact:</h2>
+                <h2>Let's talk!</h2>
                 <Link to='mailto:daniel.atilano@live.com'>
                     <i class="fa-solid fa-envelope" style={{position: 'relative', right:'-42px', color: '#ffffff'}}></i>
                 </Link>

@@ -43,6 +43,10 @@ export const SliderData = [
     {
         image:"Dibujos/reflet.jpg",
         alt:"large-horizontal"
+    },
+    {
+        image:"Dibujos/Sabotaje.jpg",
+        alt:"large-horizontal"
     }
 
 ];

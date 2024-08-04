@@ -17,7 +17,7 @@
    
     opacity: 1;
     background: rgba(1,90,156,0.8);
-    transform: translateY(-200%) !important;
+    transform: translateY(-100%) !important;
     /*box*/
     padding: 23px;
     font-size: 25px;
@@ -40,7 +40,7 @@
     }
 
     .child-two.active{
-    transform: translateY(-110%) !important;
+    transform: translateY(-100%) !important;
     }
 
 }
@@ -58,7 +58,7 @@
 
 @media (min-width:500px) and (max-width: 960px){
 
-    .gallery-container{
+    .gallery-container{text-align: center;
      height: 130vh;
      width: 100%;
     }

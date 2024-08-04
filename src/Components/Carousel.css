@@ -2,13 +2,12 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    height: 150vh;
     display: flex;
     overflow:visible;
 }
 
 .image-zoom{
-    height: 500px;
     transform: scale(2, 2);
 }
 
@@ -95,7 +94,7 @@
     }
 
     .slider{
-      height: 60rem;
+      height: 70rem;
     }
 
     .left-arrow{
@@ -129,7 +128,7 @@
     }
 
     .slider{
-      height: 610px;
+      height: 580px;
     }
     
 }
