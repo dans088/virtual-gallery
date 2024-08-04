@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom'
 import './Description.css'
 
 
+
 const Description = (props) => {
     
     const location = useLocation();
@@ -64,9 +65,9 @@ const Description = (props) => {
     return (
         <div id='imgDescription' className='child-two'>
             <div className= 'language-bttns'>
-                    <button onClick={()=>handleChangeLanguage("en")}>EN</button>
-                    <button onClick={()=>handleChangeLanguage("es")}>ES</button>
-                    <button onClick={()=>handleChangeLanguage("fr")}>FR</button>    
+                    <button style={{width:"50px"}} onClick={()=>handleChangeLanguage("en")}>EN</button>
+                    <button style={{width:"50px"}} onClick={()=>handleChangeLanguage("es")}>ES</button>
+                    <button style={{width:"50px"}} onClick={()=>handleChangeLanguage("fr")}>FR</button>    
             </div>
             <div className ='title'>
                 <h1>{t(imageTitle)}</h1> 

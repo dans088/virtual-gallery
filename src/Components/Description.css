@@ -14,3 +14,65 @@
 .year{
     font-size:5px
 }
+
+
+@media screen and (max-width: 1024px) {
+
+    .title{
+        font-size: 10px;
+    }
+
+    .format{
+        font-size: 8px;
+    }
+
+    .dimensions{
+        font-size: 7px;
+    }
+    
+    .year{
+        font-size:7px;
+    }
+
+    .language-bttns{
+        text-align: center;
+    }
+
+ 
+}
+
+@media (min-width:500px) and (max-width: 960px){
+
+
+    .title{
+        font-size: 10px;
+        display: inline-block;
+        padding: 1rem 1rem;
+    }
+
+    .format{
+        font-size: 8px;
+        display: inline-block;
+        padding: 1rem 1rem;
+    }
+
+    .dimensions{
+        font-size: 7px;
+        display: inline-block;
+        padding: 1rem 1rem;
+    }
+    
+    .year{
+        font-size:7px;
+        display: inline-block;
+        padding: 1rem 1rem;
+    }
+
+    .language-bttns{  
+        text-align: center;
+    }
+    
+
+}
+
+

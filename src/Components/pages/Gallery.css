@@ -38,6 +38,11 @@
     height: 110vh;
     width: 100%;
     }
+
+    .child-two.active{
+    transform: translateY(-70%) !important;
+    }
+
 }
 
 
@@ -58,6 +63,10 @@
      width: 100%;
     }
 
+    .child-two.active{
+        text-align: center;
+        transform: translateY(-150%) !important;
+    }
 }
 
 
