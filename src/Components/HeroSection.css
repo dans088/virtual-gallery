@@ -46,6 +46,9 @@ video {
         font-size:70px;
         margin-top: -150px;
     }
+    .hero-container{
+        height: 82vh;
+    }
 }
 
 @media screen and (max-width: 760px){
