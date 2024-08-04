@@ -40,7 +40,7 @@
     }
 
     .child-two.active{
-    transform: translateY(-70%) !important;
+    transform: translateY(-110%) !important;
     }
 
 }
