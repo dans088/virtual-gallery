@@ -51,8 +51,9 @@ p {
   }
 
   .lang-box{
-    transform: scale(100%);
+    transform: scale(60%);
     margin-top: 50px;
+    margin-bottom: 50px;
     height: 30px;
   }
 }

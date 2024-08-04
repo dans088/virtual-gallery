@@ -40,7 +40,7 @@
     }
 
     .child-two.active{
-    transform: translateY(-100%) !important;
+    transform: translateY(-110%) !important;
     }
 
 }
@@ -65,7 +65,7 @@
 
     .child-two.active{
         text-align: center;
-        transform: translateY(-150%) !important;
+        transform: translateY(-120%) !important;
     }
 }
 
