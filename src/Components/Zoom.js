@@ -57,11 +57,7 @@ const Zoom = (props) => {
                     <img src= {props.src} alt='drawing' style={{transform:"scale(27%, 28%)"}}/>
 
                 :
-                    <img src= {props.src}  style=
-                        {{
-                        touchAction:"none",
-                        }} 
-                        alt='drawing'  className={props.alt === 'large-horizontal' ? 'image-large-horizontal' : 'image-large-vertical'}/>
+                    <img src= {props.src}  alt='drawing'  className={props.alt === 'large-horizontal' ? 'image-large-horizontal' : 'image-large-vertical'}/>
                 }
                 </>
             }
