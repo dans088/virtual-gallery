@@ -1,7 +1,7 @@
 import React from 'react'
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import {useGesture} from 'react-use-gesture';
-import { useRef, useState } from 'react';
+//import {useGesture} from 'react-use-gesture';
+//import { useRef, useState } from 'react';
 
 
 
@@ -12,7 +12,7 @@ const Zoom = (props) => {
         props.setIsZoom(!props.isZoom);
     };
 
-    
+    /*
     let [crop, setCrop] = useState({ x: 0, y: 0, scale: 0.35 });
     let ref = useRef();
     
@@ -32,7 +32,7 @@ const Zoom = (props) => {
         } 
     
     );
-        
+    */
     
     
 
@@ -57,12 +57,9 @@ const Zoom = (props) => {
                     <img src= {props.src} alt='drawing' style={{transform:"scale(27%, 28%)"}}/>
 
                 :
-                    <img src= {props.src} ref = {ref} style=
+                    <img src= {props.src}  style=
                         {{
                         touchAction:"none",
-                        left: crop.x, 
-                        top: crop.y,
-                        transform: `scale(${crop.scale})`,
                         }} 
                         alt='drawing'  className={props.alt === 'large-horizontal' ? 'image-large-horizontal' : 'image-large-vertical'}/>
                 }
