@@ -61,7 +61,7 @@ const Description = (props) => {
     };
     
     
-    console.log("definition_hook: ",  props.current);
+    //console.log("definition_hook: ",  props.current);
 
     return (
         <div id='imgDescription' className='child-two'>
