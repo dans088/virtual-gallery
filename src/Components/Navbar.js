@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import './Navbar.css';
 import myLogo from '../logo_transparent.png';
 
@@ -63,13 +63,13 @@ function Navbar() {
 
 
             <li className='nav-item-mobile'>
-              <Link
-                to='/#contact'
+              <a
+                href='/#contact'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
                 Follow me
-              </Link>
+              </a>
             </li>
 
 
