@@ -3,7 +3,7 @@ import "./Carousel.css";
 import Zoom from './Zoom';
 import { Link } from 'react-router-dom';
 import Description from'./Description';
-import {useGesture} from 'react-use-gesture';
+
 
 
 
@@ -71,35 +71,21 @@ const Carousel = ({ data }) => {
 
 
         if (isLeftSwipe){
-            console.log('swipe', isLeftSwipe ? 'right' : 'left')
-            nextSlide();
-        }else{
+            console.log('swipe', isLeftSwipe ? 'left' : 'right')
             prevSlide();
-            console.log('swipe', isRightSwipe ? 'left' : 'right')
+        }else{
+            nextSlide();
+            console.log('swipe', isRightSwipe ? 'righ' : 'left')
         }
 
     }
 
-    const Pinch =(e)=> {
-        console.log("HEI")
-        useGesture(
-            {
-                onDrag: () =>{
-                    console.log("Pinching")
-                }
-            },
-            {
-                eventOptions: {passive: false}
-            } 
-        
-        );
-    }
 
    
     //location.pathname.match(/gallery/)
 
     return (
-        <div className='slider' onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd} Pinch={Pinch}>
+        <div className='slider' onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd}>
             
             {!isZoom && (
                 <>
