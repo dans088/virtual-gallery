@@ -66,16 +66,19 @@ const Carousel = ({ data }) => {
             return;
         }
 
-        const isLeftSwipe = xDistance > minSwipeDistance + 50
-        const isRightSwipe = xDistance < -minSwipeDistance + 50
+        let isLeftSwipe = xDistance > minSwipeDistance + 50
+        let isRightSwipe = xDistance < -minSwipeDistance - 50
 
 
-        if (isLeftSwipe){
-            console.log('swipe', isLeftSwipe ? 'left' : 'right')
-            prevSlide();
-        }else{
+        if (isLeftSwipe > isRightSwipe){
+            console.log('swipe to go right', isLeftSwipe ? 'left' : 'right')
             nextSlide();
-            console.log('swipe', isRightSwipe ? 'righ' : 'left')
+            
+        }else if(isRightSwipe > isLeftSwipe){
+    
+            console.log('swipe to go left', isRightSwipe ? 'right' : 'left')
+            prevSlide();
+            
         }
 
     }
