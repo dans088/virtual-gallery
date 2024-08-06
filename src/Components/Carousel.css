@@ -4,7 +4,7 @@
     align-items: center;
     height: 150vh;
     display: flex;
-    overflow:visible;
+    overflow:scroll;
 }
 
 .image-zoom{
@@ -13,13 +13,13 @@
 
 .image-large-horizontal {
   width: 720px;
-  height: 640px;
+  height: 600px;
   border-radius: 10px;
 }
 
 .image-large-vertical {
-  width: 570px;
-  height: 640px;
+  width: 550px;
+  height: 600px;
   border-radius: 10px;
 }
 
