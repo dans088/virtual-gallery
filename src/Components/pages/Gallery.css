@@ -42,8 +42,10 @@
 
 
     .child-two.active{
-    transition: all 0.1s ease-in-out;
-    transform: translateY(-100%) !important;
+    transition: all 0.5s ease-in-out allow-discrete;
+    transform: translateY(-105%) !important;
+    font-size: 10px;
+    padding: 6px;
     }
 
     
