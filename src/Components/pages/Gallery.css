@@ -41,10 +41,12 @@
     height: 110vh;
     width: 100%;
     }
+
+
     
     .child-two{
     opacity: 0;
-    transition: all 0.3s ease-in-out;
+    transition-duration: 1ms;
     }
 
     .child-two.active{
