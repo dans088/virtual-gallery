@@ -46,7 +46,7 @@
     
     .child-two{
     opacity: 0;
-    transition-duration: 1ms;
+    transition: all 0.2s ease-in-out;
     }
 
     .child-two.active{

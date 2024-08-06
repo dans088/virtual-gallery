@@ -4,7 +4,7 @@
     align-items: center;
     height: 150vh;
     display: flex;
-    overflow:scroll;
+    overflow:visible;
 }
 
 .image-zoom{
