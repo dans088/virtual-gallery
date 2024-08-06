@@ -5,6 +5,7 @@
     width: 100%;
     padding-top: 30px;
     overflow: hidden;
+    scroll-behavior: smooth;
     
 }
 
@@ -39,10 +40,14 @@
     width: 100%;
     }
 
+
     .child-two.active{
-    transform: translateY(-110%) !important;
+    transition: all 0.1s ease-in-out;
+    transform: translateY(-100%) !important;
     }
 
+    
+  
 }
 
 

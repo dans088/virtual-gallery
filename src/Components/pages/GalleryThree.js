@@ -44,7 +44,7 @@ export default function GalleryThree(){
         
     }, [offset]);
 
-
+    console.log("offset: ", offset);
 
     return (
     
