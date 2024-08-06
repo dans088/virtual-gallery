@@ -43,7 +43,7 @@ export default function GalleryOne(props){
     }, [offset]);
     
 
-    //console.log("o: ",offset);
+    console.log("o: ",offset);
 
     return (
     
