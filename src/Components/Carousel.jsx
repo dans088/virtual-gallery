@@ -66,8 +66,8 @@ const Carousel = ({ data }) => {
             return;
         }
 
-        let isLeftSwipe = xDistance > minSwipeDistance + 50
-        let isRightSwipe = xDistance < -minSwipeDistance - 50
+        let isLeftSwipe = xDistance > minSwipeDistance + 30
+        let isRightSwipe = xDistance < -minSwipeDistance - 30
 
 
         if (isLeftSwipe > isRightSwipe){
