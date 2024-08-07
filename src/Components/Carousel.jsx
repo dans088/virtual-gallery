@@ -21,6 +21,7 @@ const Carousel = ({ data }) => {
     
     const [touchStartY, setTouchStartY] = useState(null)
     const [touchEndY, setTouchEndY] = useState(null)
+    
 
     const length = data.length;
 

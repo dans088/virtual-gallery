@@ -30,20 +30,11 @@ export default function GalleryOne(props){
         }else {
             elem.classList.remove("active");
         }
-        if(window.innerWidth <= 1024)
-        {
-            if(offset > 50)
-            {
-                elem.classList.add("active");
-            }else{
-                elem.classList.remove("active");
-            }
-        }
         
     }, [offset]);
     
 
-    console.log("o: ",offset);
+    //console.log("o: ",offset);
 
     return (
     

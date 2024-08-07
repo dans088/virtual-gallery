@@ -10,9 +10,6 @@ export default function GalleryFour(){
 
     const [offset, setOffset] = useState(0);
 
-    useEffect(()=> {
-        window.scroll(0,0);
-    }, []);
     
    
     useEffect(() => {
@@ -30,15 +27,6 @@ export default function GalleryFour(){
             elem.classList.add("active");
         }else {
             elem.classList.remove("active");
-        }
-        if(window.innerWidth <= 1024)
-        {
-            if(offset > 50)
-            {
-                elem.classList.add("active");
-            }else{
-                elem.classList.remove("active");
-            }
         }
         
     }, [offset]);

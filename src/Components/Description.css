@@ -1,22 +1,22 @@
 .title{
     font-style: italic;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .format{
-    font-size: 5px;
+    font-size: 7px;
 }
 
 .dimensions{
-    font-size: 5px;
+    font-size: 7px;
 }
 
 .year{
-    font-size:5px
+    font-size:7px
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
 
     .title{
         font-size: 7px;
