@@ -12,10 +12,6 @@
 
 @media screen and (min-width: 1024px) {
 
-.gallery-container{
-    zoom: 90%;
-}
-
 .child-two{
     opacity: 0;
     transition: all 1s ease-in-out;
