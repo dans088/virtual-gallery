@@ -12,14 +12,14 @@
 }
 
 .image-large-horizontal {
-  width: 720px;
-  height: 600px;
+  width: 620px;
+  height: 500px;
   border-radius: 10px;
 }
 
 .image-large-vertical {
-  width: 550px;
-  height: 600px;
+  width: 450px;
+  height: 500px;
   border-radius: 10px;
 }
 
