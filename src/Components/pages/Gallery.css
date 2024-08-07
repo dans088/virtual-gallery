@@ -1,5 +1,5 @@
 .gallery-container{
-   
+    
     position: relative;
     height: 110vh;
     width: 100%;
@@ -9,7 +9,12 @@
     
 }
 
+
 @media screen and (min-width: 1024px) {
+
+.gallery-container{
+    zoom: 90%;
+}
 
 .child-two{
     opacity: 0;
