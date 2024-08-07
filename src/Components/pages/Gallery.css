@@ -5,6 +5,8 @@
     overflow-x: hidden;
 }
 
+
+
 .child-two{
     opacity: 0;
     transition: all 1s ease-in-out;
@@ -13,7 +15,6 @@
 .child-two.active{
    
     opacity: 1;
-    background: rgba(1,90,156,0.8);
     transform: translateY(-50%) !important;
     /*box*/
     padding: 23px;
@@ -28,11 +29,20 @@
 }
 
 
+
 @media screen and (max-width: 800px) {
 
+
+    .child-two{
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+    }
+    
     .child-two.active{
-    transform: translateY(-110%) !important; 
-}
+        opacity: 1;
+        transform: translateY(-110%) !important; 
+   
+    }
 
 }
 
@@ -42,9 +52,14 @@
         overflow: hidden;
     }
 
+    .child-two{
+        opacity: 0;
+        transition: all 0.2s ease-in-out;
+    }
+
     .child-two.active{
         text-align: center;
-        transform: translateY(-330%) !important;
+        transform: translateY(-280%) !important;
     }
 }
 
