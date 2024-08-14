@@ -60,6 +60,16 @@ function Navbar() {
               </a>
             </li>
 
+            <li className='nav-item'>
+              <a
+                href='/aboutMe'
+                className='nav-links nav-btn'
+                onClick={closeMobileMenu}
+              >
+                About Me
+              </a>
+            </li>
+
 
             <li className='nav-item-mobile'>
               <a

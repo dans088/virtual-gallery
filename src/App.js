@@ -7,6 +7,7 @@ import SeriesOne from './Components/pages/GalleryOne';
 import SeriesTwo from './Components/pages/GalleryTwo';
 import SeriresThree from './Components/pages/GalleryThree';
 import SeriesFour from './Components/pages/GalleryFour';
+import Works from './Components/pages/HowItWorks';
 import About from './Components/pages/AboutMe';
 import SignUp from './Components/pages/SignUp';
 import MayShowNavbar from './Components/MayShowNavbar';
@@ -31,7 +32,8 @@ function App() {
         <Route path= '/galleryTwo' element={<SeriesTwo/>}/>
         <Route path= '/galleryThree' element={<SeriresThree/>}/>
         <Route path= '/galleryFour' element={<SeriesFour/>}/>
-        <Route path= '/aboutMe' element={<About/>}/>
+        <Route path= '/HowItWorks' element={<Works/>}/>
+        <Route path= '/AboutMe' element={<About/>}/>
         <Route path= '/sign-up' element={<SignUp/>}/>
        </Routes>
       </Router>
