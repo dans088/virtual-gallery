@@ -44,6 +44,8 @@ h1 {
   }
 
   .text-container{
+    text-align: justify;
+    text-justify: inter-word;
     width: 100%;
     padding: 0.5rem;
   }

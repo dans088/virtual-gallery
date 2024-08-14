@@ -35,7 +35,6 @@ h1 {
 }
 
 .text-column p {
-  
     color:#fff;
     text-shadow: 0px 0px 27px rgba(66,66,66,.75);
     padding: 23px;
@@ -75,6 +74,8 @@ h1 {
     }
 
     .text-column{
+        text-align: justify;
+        text-justify: inter-word;
         width: 100%;
         padding: 0%;
     }
