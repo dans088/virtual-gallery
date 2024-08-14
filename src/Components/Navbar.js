@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import './Navbar.css';
 import myLogo from '../logo_transparent.png';
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -61,13 +61,13 @@ function Navbar() {
             </li>
 
             <li className='nav-item'>
-              <a
-                href='/aboutMe'
+              <Link
+                to='/aboutMe'
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
                 About Me
-              </a>
+              </Link>
             </li>
 
 
