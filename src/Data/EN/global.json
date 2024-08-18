@@ -162,12 +162,18 @@
         "year" : "2024"
     },
     "slider3image8":{
+        "title": "Misheard", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider3image9":{
         "title": "Childhood temple", 
         "format" : "Charcoal and color pencil on paper",
         "dimensions" : "75 x 55 cm",
         "year" : "2024"
     },
-    "slider3image9":{
+    "slider3image10":{
         "title": "Things I have unlearned", 
         "format" : "Charcoal and color pencil on paper",
         "dimensions" : "1000 x 1015 cm",
@@ -196,6 +202,13 @@
         "format" : "Pencil on paper",
         "dimensions" : "25 x 38 cm",
         "year" : "2024"
+    },
+    "slider4image4":{
+        "title": "Zorba", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "38 x 25 cm",
+        "year" : "2024"
     }
+
 
 }

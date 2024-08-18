@@ -14,6 +14,10 @@ export const SliderData = [
     {
         image:"Dibujos/Sceau.jpg",
         alt:"large-horizontal"
+    },
+    {
+        image:"Dibujos/Zorba.jpg",
+        alt: "large-vertical"
     }
 
 ];

@@ -162,12 +162,18 @@
         "year" : "2024"
     },
     "slider3image8":{
+        "title": "Pour-autrui", 
+        "format" : "Pastel sec et crayon de couleur sur papier",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider3image9":{
         "title": "Temple d'enfance", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "75 x 55 cm",
         "year" : "2024"
     },
-    "slider3image9":{
+    "slider3image10":{
         "title": "Nouvelles habitudes", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "1000 x 1015 cm",
@@ -196,6 +202,13 @@
         "format" : "Crayon sur papier",
         "dimensions" : "25 x 38 cm",
         "year" : "2024"
+    },
+    "slider4image4":{
+        "title": "Zorba", 
+        "format" : "Pasel sec et crayon sur papier",
+        "dimensions" : "38 x 25 cm",
+        "year" : "2024"
     }
+
 
 }

@@ -162,12 +162,18 @@
         "year" : "2024"
     },
     "slider3image8":{
+        "title": "La incomprendida", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider3image9":{
         "title": "Templo de la infancia", 
         "format" : "Carbón y lápiz de color sobre papel",
         "dimensions" : "75 x 55 cm",
         "year" : "2024"
     },
-    "slider3image9":{
+    "slider3image10":{
         "title": "Cosas que desaprendí", 
         "format" : "Carbón y lápiz de color sobre papel",
         "dimensions" : "1000 x 1015 cm",
@@ -195,6 +201,12 @@
         "title": "Sello", 
         "format" : "Lápiz sobre papel",
         "dimensions" : "25 x 38 cm",
+        "year" : "2024"
+    },
+    "slider4image4":{
+        "title": "Zorba", 
+        "format" : "Carbon y lápiz sobre papel",
+        "dimensions" : "38 x 25 cm",
         "year" : "2024"
     }
 

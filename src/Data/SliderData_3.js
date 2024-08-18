@@ -32,6 +32,10 @@ export const SliderData = [
         alt:"large-vertical"
     },
     {
+        image: "Dibujos/Incomprendida.jpg",
+        alt:"large-horizontal"
+    },
+    {
         image:"Dibujos/Fantome.jpg",
         alt:"large-vertical"
     },
