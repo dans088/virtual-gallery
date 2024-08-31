@@ -208,6 +208,18 @@
         "format" : "Pasel sec et crayon sur papier",
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
+    },
+    "slider4image5":{
+        "title": "Honnêteté", 
+        "format" : "Pasel sec et crayon sur papier",
+        "dimensions" : "55 x 77 cm",
+        "year" : "2024"
+    },
+    "slider4image6":{
+        "title": "Mnemosyne", 
+        "format" : "Dessin",
+        "dimensions" : "38 x 25 cm",
+        "year" : "2024"
     }
 
 

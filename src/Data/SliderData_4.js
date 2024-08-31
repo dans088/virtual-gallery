@@ -18,6 +18,15 @@ export const SliderData = [
     {
         image:"Dibujos/Zorba.jpg",
         alt: "large-vertical"
+    },
+    {
+        image:"Dibujos/honestidad.jpg",
+        alt: "large-horizontal"
+    },
+    {
+        image:"Dibujos/Mnemosyne.jpg",
+        alt: "large-vertical"
     }
+
 
 ];

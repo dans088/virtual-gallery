@@ -208,6 +208,18 @@
         "format" : "Carbon y lápiz sobre papel",
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
+    },
+    "slider4image5":{
+        "title": "Honestidad", 
+        "format" : "Carbon y lápiz sobre papel",
+        "dimensions" : "55 x 77 cm",
+        "year" : "2024"
+    },
+    "slider4image6":{
+        "title": "Mnemosyne", 
+        "format" : "Dibujo",
+        "dimensions" : "38 x 25 cm",
+        "year" : "2024"
     }
 
 }
