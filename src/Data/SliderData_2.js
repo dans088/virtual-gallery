@@ -23,6 +23,10 @@ export const SliderData = [
     {
         image:"Dibujos/pour-soi.jpg",
         alt:"large-horizontal"
+    },
+    {
+        image:"Dibujos/0,1,1....jpg",
+        alt:"large-horizontal"
     }
 
 ];

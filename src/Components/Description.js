@@ -19,8 +19,10 @@ const Description = (props) => {
             setGalleryName("slider2image0");
         }else if(location.pathname === "/galleryThree"){
             setGalleryName("slider3image0");
-        }else{
+        }else if(location.pathname === "/galleryFour"){
             setGalleryName("slider4image0");
+        }else{
+            setGalleryName("slider5image0");
         }
       
     }, [location])

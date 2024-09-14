@@ -18,19 +18,19 @@
         "year" : "2022"
     },
     "slider1image2":{
+        "title": "Categorías", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
+    },
+    "slider1image3":{
         "title": "Echo", 
         "format" : "Lápiz sobre papel",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2022"
     },
-    "slider1image3":{
-        "title": "Asenso", 
-        "format" : "Lápiz sobre papel",
-        "dimensions" : "35.6 x 43.2 cm",
-        "year" : "2021"
-    },
     "slider1image4":{
-        "title": "Angustia", 
+        "title": "Asenso", 
         "format" : "Lápiz sobre papel",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2021"
@@ -71,12 +71,6 @@
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
-    "slider1image11":{
-        "title": "Sabotaje", 
-        "format" : "Carbón y lápiz de color sobre papel",
-        "dimensions" : "45 x 77.5 cm",
-        "year" : "2024"
-    },
     "slider2image0":{
         "title": "Un dos", 
         "format" : "Carbón y lápiz de color sobre papel",
@@ -113,65 +107,71 @@
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
-    "slider3image0":{
-        "title": "Categorías", 
+    "slider2image6":{
+        "title": "0,1,1...", 
         "format" : "Carbón y lápiz sobre papel",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider3image0":{
+        "title": "Sabotaje", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "45 x 77.5 cm",
+        "year" : "2024"
     },
     "slider3image1":{
-        "title": "Gustos", 
-        "format" : "Carbón y lápiz de color sobre papel",
-        "dimensions" : "43.2 x 35.6 cm",
+        "title": "Angustia", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
         "year" : "2021"
     },
     "slider3image2":{
-        "title": "La fuente", 
-        "format" : "Carbón y lápiz sobre papel",
-        "dimensions" : "35.6 x 43.2 cm",
-        "year" : "2023"
-    },
-    "slider3image3":{
-        "title": "Voluntad", 
-        "format" : "Carbón y lápiz sobre papel",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
-    },
-    "slider3image4":{
-        "title": "Tacto", 
-        "format" : "Carbón y lápiz de color sobre papel",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
-    },
-    "slider3image5":{
-        "title": "Pacto", 
-        "format" : "Carbón y lápiz de color sobre papel",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
-    },
-    "slider3image6":{
-        "title": "Sol Negro", 
-        "format" : "Carbón sobre papel",
-        "dimensions" : "35.6 x 43.2 cm",
-        "year" : "2024"
-    },
-    "slider3image7":{
-        "title": "Hábitos", 
-        "format" : "Carbón y lápiz de color sobre papel",
-        "dimensions" : "75 x 55 cm",
-        "year" : "2024"
-    },
-    "slider3image8":{
         "title": "La incomprendida", 
         "format" : "Carbón y lápiz sobre papel",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
-    "slider3image9":{
-        "title": "Templo de la infancia", 
-        "format" : "Carbón y lápiz de color sobre papel",
-        "dimensions" : "75 x 55 cm",
+    "slider3image3":{
+        "title": "Gniy/Gnay", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "29.7 x 42 cm",
         "year" : "2024"
+    },
+    "slider3image4":{
+        "title": "Protocolo de apareamiento", 
+        "format" : "Lápiz sobre papel",
+        "dimensions" : "60 x 40 cm",
+        "year" : "2024"
+    },
+    "slider3image5":{
+        "title": "Sol Negro", 
+        "format" : "Carbón sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider3image6":{
+        "title": "La fuente", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2023"
+    },
+    "slider3image7":{
+        "title": "Voluntad", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
+    },
+    "slider3image8":{
+        "title": "Tacto", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
+    },
+    "slider3image9":{
+        "title": "Pacto", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image10":{
         "title": "Cosas que desaprendí", 
@@ -192,34 +192,53 @@
         "year" : "2024"
     },
     "slider4image2":{
-        "title": "Gniy/Gnay", 
-        "format" : "Lápiz sobre papel",
-        "dimensions" : "297 x 420 cm",
-        "year" : "2024"
-    },
-    "slider4image3":{
         "title": "Sello", 
         "format" : "Lápiz sobre papel",
         "dimensions" : "25 x 38 cm",
         "year" : "2024"
     },
-    "slider4image4":{
+    "slider4image3":{
         "title": "Zorba", 
         "format" : "Carbon y lápiz sobre papel",
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
     },
-    "slider4image5":{
+    "slider4image4":{
         "title": "Honestidad", 
         "format" : "Carbon y lápiz sobre papel",
         "dimensions" : "55 x 77 cm",
         "year" : "2024"
     },
-    "slider4image6":{
+    "slider4image5":{
         "title": "Mnemosyne", 
         "format" : "Dibujo",
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
+    },
+    "slider5image0":{
+        "title": "Gustos", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2021"
+    },
+    "slider5image1":{
+        "title": "Hábitos", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider5image2":{
+        "title": "Templo de la infancia", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider5image3":{
+        "title": "Ineinander", 
+        "format" : "Carbón y lápiz de color sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2024"
     }
+
 
 }

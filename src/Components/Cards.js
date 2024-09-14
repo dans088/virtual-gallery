@@ -16,20 +16,28 @@ function Cards() {
                   path='/galleryOne'
                 />
                 <CardItem 
-                  src= "Dibujos/Un dos.jpg"
-                  text= "Syncategorematics"
-                  label= 'One two'
-                  path='/galleryTwo'
-                />
-             </ul>
-             <ul className='cards__items'>
-              <CardItem 
                   src= "Dibujos/Source.jpg"
                   text= "Limits"
                   label= 'The Source'
                   path='/galleryThree'
                 />
-              <CardItem 
+             </ul>
+             <ul className='cards__items'>
+                <CardItem 
+                  src= "Dibujos/Un dos.jpg"
+                  text= "Syncategorematics"
+                  label= 'One two'
+                  path='/galleryTwo'
+                />
+
+                <CardItem 
+                    src= "Dibujos/Ineinander.jpg"
+                    text= "Glanz"
+                    label= 'Ineinander'
+                    path='/galleryFive'
+                />
+              
+                <CardItem 
                   src= "Dibujos/En-soi.jpg"
                   text= "Core"
                   label= 'Fragmented whole'

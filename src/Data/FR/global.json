@@ -7,55 +7,55 @@
     },
     "slider1image0":{
         "title": "La condition hypermoderne", 
-        "format" : "Crayon sur papier",
+        "format" : "Dessin",
         "dimensions" : "27.94 x 21.59 cm",
         "year" : "2020"
     },
     "slider1image1":{
         "title": "L'ombre du Père", 
-        "format" : "Crayon sur papier",
+        "format" : "Dessin",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2022"
     },
     "slider1image2":{
-        "title": "Écho", 
-        "format" : "Crayon sur papier",
-        "dimensions" : "35.6 x 43.2 cm",
+        "title": "Catégories", 
+        "format" : "Dessin",
+        "dimensions" : "43.2 x 35.6 cm",
         "year" : "2022"
     },
     "slider1image3":{
-        "title": "Promotion", 
-        "format" : "Crayon sur papier",
+        "title": "Écho", 
+        "format" : "Dessin",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2022"
     },
     "slider1image4":{
-        "title": "Angoisse", 
-        "format" : "Crayon sur papier",
+        "title": "Promotion", 
+        "format" : "Dessin",
         "dimensions" : "35.6 x 43.2 cm",
-        "year" : "2021"
+        "year" : "2022"
     },
     "slider1image5":{
         "title": "Foi", 
-        "format" : "Crayon sur papier",
+        "format" : "Dessin",
         "dimensions" : "35.6 x 43,2 cm",
         "year" : "2021"
     },
     "slider1image6":{
         "title": "Liberté", 
-        "format" : "Crayon sur papier",
+        "format" : "Dessin",
         "dimensions" : "35.6 x 43,2 cm",
         "year" : "2021"
     },
     "slider1image7":{
         "title": "Conscience", 
-        "format" : "Crayon sur papier",
+        "format" : "Dessin",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2021"
     },
     "slider1image8":{
        "title": "Devenir", 
-        "format" : "Crayon sur papier",
+        "format" : "Dessin",
         "dimensions" : "35.6 x 43,2 cm",
         "year" : "2022"
     },   
@@ -69,12 +69,6 @@
         "title": "Reflet-reflétant", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "35.6 x 43,2 cm",
-        "year" : "2024"
-    },
-    "slider1image11":{
-        "title": "Ébranlement", 
-        "format" : "Pastel sec et crayon sur papier",
-        "dimensions" : "45 x 77.5 cm",
         "year" : "2024"
     },
     "slider2image0":{
@@ -113,65 +107,71 @@
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
+    "slider2image6":{
+        "title": "0,1,1...", 
+        "format" : "Pastel sec et crayon sur papier",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
     "slider3image0":{
-        "title": "Catégpries", 
-        "format" : "Crayon sur papier",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2022"
+        "title": "Ébranlement", 
+        "format" : "Pastel sec et crayon sur papier",
+        "dimensions" : "45 x 77.5 cm",
+        "year" : "2024"
     },
     "slider3image1":{
-        "title": "Goûts", 
-        "format" : "Crayon sur papier",
+        "title": "Angoisse", 
+        "format" : "Dessin",
         "dimensions" : "35.6 x 43.2 cm",
-        "year" : "2022"
+        "year" : "2021"
     },
     "slider3image2":{
-        "title": "La Source", 
+        "title": "Pour-autrui", 
         "format" : "Pastel sec et crayon sur papier",
-        "dimensions" : "35.6 x 43,2 cm",
-        "year" : "2023"
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
     },
     "slider3image3":{
-        "title": "Intention", 
+        "title": "Gniy/Gnay", 
         "format" : "Pastel sec et crayon sur papier",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
+        "dimensions" : "42 x 29.7 cm",
+        "year" : "2024"
     },
     "slider3image4":{
-        "title": "Tacte", 
-        "format" : "Pastel sec et crayon de couleur sur papier",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
+        "title": "L'oblique-recte", 
+        "format" : "Pastel sec et crayon sur papier",
+        "dimensions" : "60 x 40 cm",
+        "year" : "2024"
     },
     "slider3image5":{
-        "title": "Complicité", 
-        "format" : "Pastel sec et crayon de couleur sur papier",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
-    },
-    "slider3image6":{
         "title": "Soleir Noir", 
         "format" : "Pastel sec sur papier",
         "dimensions" : "35.6 x 43,2 cm",
         "year" : "2024"
     },
+    "slider3image6":{
+        "title": "La Source", 
+        "format" : "Pastel sec et crayon sur papier",
+        "dimensions" : "35.6 x 43,2 cm",
+        "year" : "2023"
+    },
     "slider3image7":{
-        "title": "Habitudes", 
-        "format" : "Pastel sec et crayon de couleur sur papier",
-        "dimensions" : "75 x 55 cm",
-        "year" : "2024"
+        "title": "Intention", 
+        "format" : "Pastel sec et crayon sur papier",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image8":{
-        "title": "Pour-autrui", 
+        "title": "Tacte", 
         "format" : "Pastel sec et crayon de couleur sur papier",
-        "dimensions" : "35.6 x 43.2 cm",
-        "year" : "2024"
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image9":{
-        "title": "Temple d'enfance", 
+        "title": "Complicité", 
         "format" : "Pastel sec et crayon de couleur sur papier",
-        "dimensions" : "75 x 55 cm",
-        "year" : "2024"
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image10":{
         "title": "Nouvelles habitudes", 
@@ -187,38 +187,56 @@
     },
     "slider4image1":{
         "title": "Lucy", 
-        "format" : "Crayon sur papier",
+        "format" : "Dessin",
         "dimensions" : "20 x 23 cm",
         "year" : "2024"
     },
     "slider4image2":{
-        "title": "Gniy/Gnay", 
-        "format" : "Pastel sec et crayon sur papier",
-        "dimensions" : "420 x 297 cm",
-        "year" : "2024"
-    },
-    "slider4image3":{
         "title": "Sceau", 
-        "format" : "Crayon sur papier",
+        "format" : "Dessin",
         "dimensions" : "25 x 38 cm",
         "year" : "2024"
     },
-    "slider4image4":{
+    "slider4image3":{
         "title": "Zorba", 
         "format" : "Pasel sec et crayon sur papier",
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
     },
-    "slider4image5":{
+    "slider4image4":{
         "title": "Honnêteté", 
         "format" : "Pasel sec et crayon sur papier",
         "dimensions" : "55 x 77 cm",
         "year" : "2024"
     },
-    "slider4image6":{
+    "slider4image5":{
         "title": "Mnemosyne", 
         "format" : "Dessin",
         "dimensions" : "38 x 25 cm",
+        "year" : "2024"
+    },
+    "slider5image0":{
+        "title": "Goûts", 
+        "format" : "Pastel sec et crayon sur papier",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2022"
+    },
+    "slider5image1":{
+        "title": "Habitudes", 
+        "format" : "Pastel sec et crayon de couleur sur papier",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider5image2":{
+        "title": "Temple d'enfance", 
+        "format" : "Pastel sec et crayon de couleur sur papier",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider5image3":{
+        "title": "Ineinander", 
+        "format" : "Pastel sec et crayon de couleur sur papier",
+        "dimensions" : "43.2 x 35.6 cm",
         "year" : "2024"
     }
 

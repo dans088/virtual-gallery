@@ -18,19 +18,19 @@
         "year" : "2022"
     },
     "slider1image2":{
+        "title": "Categories", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
+    },
+    "slider1image3":{
         "title": "Eco", 
         "format" : "Pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2022"
     },
-    "slider1image3":{
-        "title": "Promotion", 
-        "format" : "Pencil on paper",
-        "dimensions" : "35.6 x 43.2 cm",
-        "year" : "2021"
-    },
     "slider1image4":{
-        "title": "Anguish", 
+        "title": "Promotion", 
         "format" : "Pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2021"
@@ -71,12 +71,6 @@
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
-    "slider1image11":{
-        "title": "Undermining", 
-        "format" : "Charcoal and pencil color on paper",
-        "dimensions" : "45 x 77.5 cm",
-        "year" : "2024"
-    },
     "slider2image0":{
         "title": "One two", 
         "format" : "Pencil on paper",
@@ -113,65 +107,71 @@
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
-    "slider3image0":{
-        "title": "Categories", 
+    "slider2image6":{
+        "title": "0,1,1...", 
         "format" : "Charcoal and pencil on paper",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider3image0":{
+        "title": "Undermining", 
+        "format" : "Charcoal and pencil color on paper",
+        "dimensions" : "45 x 77.5 cm",
+        "year" : "2024"
     },
     "slider3image1":{
-        "title": "Tastes", 
-        "format" : "Charcoal and pencil on paper",
+        "title": "Anguish", 
+        "format" : "Pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
-        "year" : "2023"
+        "year" : "2021"
     },
     "slider3image2":{
-        "title": "The Source", 
-        "format" : "Charcoal and pencil on paper",
-        "dimensions" : "35.6 x 43.2 cm",
-        "year" : "2023"
-    },
-    "slider3image3":{
-        "title": "Will", 
-        "format" : "Charcoal and pencil on paper",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
-    },
-    "slider3image4":{
-        "title": "Touch", 
-        "format" : "Charcoal and color pencil on paper",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
-    },
-    "slider3image5":{
-        "title": "Pact", 
-        "format" : "Charcoal and color pencil on paper",
-        "dimensions" : "43.2 x 35.6 cm",
-        "year" : "2023"
-    },
-    "slider3image6":{
-        "title": "The Black Sun", 
-        "format" : "Charcoal on paper",
-        "dimensions" : "35.6x 43.2 cm",
-        "year" : "2024"
-    },
-    "slider3image7":{
-        "title": "Habits", 
-        "format" : "Charcoal and pencil on paper",
-        "dimensions" : "75 x 55 cm",
-        "year" : "2024"
-    },
-    "slider3image8":{
         "title": "Misheard", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
-    "slider3image9":{
-        "title": "Childhood temple", 
-        "format" : "Charcoal and color pencil on paper",
-        "dimensions" : "75 x 55 cm",
+    "slider3image3":{
+        "title": "Gniy/Gnay", 
+        "format" : "Pencil on paper",
+        "dimensions" : "29.7 x 42 cm",
         "year" : "2024"
+    },
+    "slider3image4":{
+        "title": "Lovemaking protocol", 
+        "format" : "Pencil on paper",
+        "dimensions" : "60 x 40 cm",
+        "year" : "2024"
+    },
+    "slider3image5":{
+        "title": "The Black Sun", 
+        "format" : "Charcoal on paper",
+        "dimensions" : "35.6x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider3image6":{
+        "title": "The Source", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2023"
+    },
+    "slider3image7":{
+        "title": "Will", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
+    },
+    "slider3image8":{
+        "title": "Touch", 
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
+    },
+    "slider3image9":{
+        "title": "Pact", 
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2023"
     },
     "slider3image10":{
         "title": "Things I have unlearned", 
@@ -192,35 +192,54 @@
         "year" : "2024"
     },
     "slider4image2":{
-        "title": "Gniy/Gnay", 
-        "format" : "Pencil on paper",
-        "dimensions" : "297 x 420 cm",
-        "year" : "2024"
-    },
-    "slider4image3":{
         "title": "Seal", 
         "format" : "Pencil on paper",
         "dimensions" : "25 x 38 cm",
         "year" : "2024"
     },
-    "slider4image4":{
+    "slider4image3":{
         "title": "Zorba", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
     },
-    "slider4image5":{
+    "slider4image4":{
         "title": "Honesty", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "55 x 77 cm",
         "year" : "2024"
     },
-    "slider4image6":{
+    "slider4image5":{
         "title": "Mnemosyne", 
         "format" : "Pencil on paper",
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
+    },
+    "slider5image0" :{
+        "title": "Tastes", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2023"
+    },
+    "slider5image1":{
+        "title": "Habits", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider5image2":{
+        "title": "Childhood temple", 
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "75 x 55 cm",
+        "year" : "2024"
+    },
+    "slider5image3":{
+        "title": "Ineinander", 
+        "format" : "Charcoal and color pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2024"
     }
 
-
 }
+
+

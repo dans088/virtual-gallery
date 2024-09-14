@@ -9,15 +9,15 @@ export const SliderData = [
         alt:"large-vertical"
     },
     {
+        image:"Dibujos/categorias.jpg",
+        alt:"large-vertical"
+    },
+    {
         image:"Dibujos/eco.jpg",
         alt:"large-horizontal"
     },
     {
         image:"Dibujos/asenso(1).jpg",
-        alt:"large-horizontal"
-    },
-    {
-        image:"Dibujos/angustia.jpg",
         alt:"large-horizontal"
     },
     {
@@ -42,10 +42,6 @@ export const SliderData = [
     },
     {
         image:"Dibujos/reflet.jpg",
-        alt:"large-horizontal"
-    },
-    {
-        image:"Dibujos/Sabotaje.jpg",
         alt:"large-horizontal"
     }
 
