@@ -38,7 +38,7 @@
     "slider1image5":{
         "title": "Foi", 
         "format" : "Dessin",
-        "dimensions" : "35.6 x 43,2 cm",
+        "dimensions" : "35.6 x 43.2 cm",
         "year" : "2021"
     },
     "slider1image6":{
@@ -60,7 +60,7 @@
         "year" : "2022"
     },   
     "slider1image9":{
-        "title": "Entre la mer et la terre", 
+        "title": "Entre la mer et le ciel", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "35.6 x 43,2 cm",
         "year" : "2024"
@@ -114,7 +114,7 @@
         "year" : "2024"
     },
     "slider3image0":{
-        "title": "Ébranlement", 
+        "title": "Sabotage", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "45 x 77.5 cm",
         "year" : "2024"
@@ -156,19 +156,19 @@
         "year" : "2023"
     },
     "slider3image7":{
-        "title": "Intention", 
+        "title": "Choix", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
     "slider3image8":{
-        "title": "Tacte", 
+        "title": "Tact", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
     "slider3image9":{
-        "title": "Complicité", 
+        "title": "Pacte", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
