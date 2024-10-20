@@ -4,6 +4,10 @@ export const SliderData = [
         alt:"large-horizontal"
     },
     {
+        image:"Dibujos/IMG_0209.JPG",
+        alt:"large-horizontal"
+    },
+    {
         image:"Dibujos/angustia.jpg",
         alt:"large-horizontal"
     },
@@ -17,7 +21,11 @@ export const SliderData = [
     },
     {
         image:"Dibujos/genero.JPG",
-        alt:"larg-vertical"
+        alt:"large-vertical"
+    },
+    {
+        image:"Dibujos/IMG_0215.jpg",
+        alt:"large-vertical"
     },
     {
         image:"Dibujos/SolNegro.jpeg",

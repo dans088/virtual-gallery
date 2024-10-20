@@ -120,60 +120,72 @@
         "year" : "2024"
     },
     "slider3image1":{
+        "title": "The tragedy of the sexes", 
+        "format" : "Charcoal and pencil color on paper",
+        "dimensions" : "35 x 45 cm",
+        "year" : "2024"
+    },
+    "slider3image2":{
         "title": "Anguish", 
         "format" : "Pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2021"
     },
-    "slider3image2":{
+    "slider3image3":{
         "title": "Misheard", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
-    "slider3image3":{
+    "slider3image4":{
         "title": "Gniy/Gnay", 
         "format" : "Pencil on paper",
         "dimensions" : "29.7 x 42 cm",
         "year" : "2024"
     },
-    "slider3image4":{
+    "slider3image5":{
         "title": "Lovemaking protocol", 
         "format" : "Pencil on paper",
         "dimensions" : "60 x 40 cm",
         "year" : "2024"
     },
-    "slider3image5":{
+    "slider3image6":{
+        "title": "Shortcuts", 
+        "format" : "Pencil on paper",
+        "dimensions" : "66 x 35 cm",
+        "year" : "2024"
+    },
+    "slider3image7":{
         "title": "The Black Sun", 
         "format" : "Charcoal on paper",
         "dimensions" : "35.6x 43.2 cm",
         "year" : "2024"
     },
-    "slider3image6":{
+    "slider3image8":{
         "title": "The Source", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2023"
     },
-    "slider3image7":{
+    "slider3image9":{
         "title": "Will", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image8":{
+    "slider3image10":{
         "title": "Touch", 
         "format" : "Charcoal and color pencil on paper",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image9":{
+    "slider3image11":{
         "title": "Pact", 
         "format" : "Charcoal and color pencil on paper",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image10":{
+    "slider3image12":{
         "title": "Things I have unlearned", 
         "format" : "Charcoal and color pencil on paper",
         "dimensions" : "1000 x 1015 cm",
@@ -204,12 +216,18 @@
         "year" : "2024"
     },
     "slider4image4":{
+        "title": "Maenad", 
+        "format" : "Pencil on paper",
+        "dimensions" : "25 x 38 cm",
+        "year" : "2024"
+    },
+    "slider4image5":{
         "title": "Honesty", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "55 x 77 cm",
         "year" : "2024"
     },
-    "slider4image5":{
+    "slider4image6":{
         "title": "Mnemosyne", 
         "format" : "Pencil on paper",
         "dimensions" : "38 x 25 cm",
