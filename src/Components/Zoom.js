@@ -47,19 +47,15 @@ const Zoom = (props) => {
             <TransformWrapper>
                 <TransformComponent>
                    
-                        <img style={{touchAction: "none"}} src= {props.src} alt='drawing' className={props.alt === 'large-horizontal' ? 'image-large-horizontal' : 'image-large-vertical'}/>
+                        <img style={{touchAction: "none"}} src= {props.src} alt='drawing' className={props.alt}/>
                     
                 </TransformComponent>
             </TransformWrapper>
             :
-                <>
-                {props.src === 'Dibujos/Sabotaje.jpg' && window.innerWidth > 1024 ? 
-                    <img src= {props.src}  ref={ref} alt='drawing' style={{height: "300px", marginTop: "200px"}}/>  
-
-                :
-                    <img src= {props.src}  ref={ref} style={{left: crop.x, right: crop.y}} alt='drawing'  className={props.alt === 'large-horizontal' ? 'image-large-horizontal' : 'image-large-vertical'}/>
-                }
-                </>
+                
+                        <img src= {props.src}  ref={ref} style={{left: crop.x, right: crop.y}} alt='drawing'  className={props.alt}/>
+                
+                
             }
         </div>
     )

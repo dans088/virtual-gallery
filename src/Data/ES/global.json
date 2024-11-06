@@ -150,42 +150,48 @@
         "year" : "2024"
     },
     "slider3image6":{
-        "title": "Atajos", 
-        "format" : "Carbon sobre papel",
+        "title": "El que nada sabe, nada teme", 
+        "format" : "Carbón sobre papel",
         "dimensions" : "66 x 35 cm",
         "year" : "2024"
     },
     "slider3image7":{
+        "title": "El que todo sabe, todo teme", 
+        "format" : "Carbón sobre papel",
+        "dimensions" : "75 x 35 cm",
+        "year" : "2024"
+    },
+    "slider3image8":{
         "title": "Sol Negro", 
         "format" : "Carbón sobre papel",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
-    "slider3image8":{
+    "slider3image9":{
         "title": "La fuente", 
         "format" : "Carbón y lápiz sobre papel",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2023"
     },
-    "slider3image9":{
+    "slider3image10":{
         "title": "Voluntad", 
         "format" : "Carbón y lápiz sobre papel",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image10":{
+    "slider3image11":{
         "title": "Tacto", 
         "format" : "Carbón y lápiz de color sobre papel",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image11":{
+    "slider3image12":{
         "title": "Pacto", 
         "format" : "Carbón y lápiz de color sobre papel",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image12":{
+    "slider3image13":{
         "title": "Cosas que desaprendí", 
         "format" : "Carbón y lápiz de color sobre papel",
         "dimensions" : "1000 x 1015 cm",
@@ -228,6 +234,12 @@
         "year" : "2024"
     },
     "slider4image6":{
+        "title": "Odalisca", 
+        "format" : "Dibujo",
+        "dimensions" : "35 x 45 cm",
+        "year" : "2024"
+    },
+    "slider4image7":{
         "title": "Mnemosyne", 
         "format" : "Dibujo",
         "dimensions" : "38 x 25 cm",
@@ -255,6 +267,18 @@
         "title": "Ineinander", 
         "format" : "Carbón y lápiz de color sobre papel",
         "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2024"
+    },
+    "slider5image4" :{
+        "title": "Huerfanita", 
+        "format" : "Dibujo",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider5image5" :{
+        "title": "Frijoles con carne... y un chilito", 
+        "format" : "Dibujo",
+        "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     }
 

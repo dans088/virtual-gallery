@@ -156,36 +156,42 @@
         "year" : "2024"
     },
     "slider3image7":{
+        "title": "Au bout du chemin", 
+        "format" : "Pastel sec sur papier",
+        "dimensions" : "75 x 35 cm",
+        "year" : "2024"
+    },
+    "slider3image8":{
         "title": "Soleir Noir", 
         "format" : "Pastel sec sur papier",
         "dimensions" : "35.6 x 43,2 cm",
         "year" : "2024"
     },
-    "slider3image8":{
+    "slider3image9":{
         "title": "La Source", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "35.6 x 43,2 cm",
         "year" : "2023"
     },
-    "slider3image9":{
+    "slider3image10":{
         "title": "Choix", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image10":{
+    "slider3image11":{
         "title": "Tact", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image11":{
+    "slider3image12":{
         "title": "Pacte", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image12":{
+    "slider3image13":{
         "title": "Nouvelles habitudes", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "1000 x 1015 cm",
@@ -228,6 +234,12 @@
         "year" : "2024"
     },
     "slider4image6":{
+        "title": "Odalisque", 
+        "format" : "Dessin",
+        "dimensions" : "35 x 45 cm",
+        "year" : "2024"
+    },
+    "slider4image7":{
         "title": "Mnemosyne", 
         "format" : "Dessin",
         "dimensions" : "38 x 25 cm",
@@ -255,6 +267,18 @@
         "title": "Ineinander", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2024"
+    },
+    "slider5image4" :{
+        "title": "P'tite orpheline", 
+        "format" : "Dessin",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider5image5" :{
+        "title": "Petit déjeuner équilibré ", 
+        "format" : "Dessin",
+        "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     }
 

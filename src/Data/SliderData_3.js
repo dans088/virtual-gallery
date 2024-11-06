@@ -1,7 +1,7 @@
 export const SliderData = [
     {
         image:"Dibujos/Sabotaje.jpg",
-        alt:"large-horizontal"
+        alt:"landscape"
     },
     {
         image:"Dibujos/IMG_0209.JPG",
@@ -25,7 +25,11 @@ export const SliderData = [
     },
     {
         image:"Dibujos/IMG_0215.jpg",
-        alt:"large-vertical"
+        alt:"scroll"
+    },
+    {
+        image:"Dibujos/fisherman.jpg",
+        alt:"scroll"
     },
     {
         image:"Dibujos/SolNegro.jpeg",

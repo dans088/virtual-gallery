@@ -24,8 +24,12 @@ export const SliderData = [
         alt:"large-horizontal"
     },
     {
+        image:"Dibujos/odalisca.JPG",
+        alt:"large-horizontal"
+    },
+    {
         image:"Dibujos/Mnemosyne.jpg",
-        alt: "large-vertical"
+        alt: "mnemosyne"
     }
 
 

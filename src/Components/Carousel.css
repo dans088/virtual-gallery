@@ -11,14 +11,6 @@
     transform: scale(2, 2);
 }
 
-.image-large-horizontal {
-  border-radius: 10px;
-}
-
-.image-large-vertical {
-  border-radius: 10px;
-}
-
 
 .slide{
     opacity: 0;
@@ -82,31 +74,74 @@
       margin-top: 30px;
     }
 
-    .image-large-horizontal {
+    .large-horizontal {
       margin-top: 200px;
-      width: 520px;
-      height: 400px;
+      width: 420px;
+      height: 300px;
     }
 
-    .image-large-vertical {
+    .large-vertical {
       margin-top: 200px;
       width: 350px;
       height: 400px;
     }
 
+    .landscape {
+      margin-top: 200px;
+      width: 500px;
+      height: 300px;
+    }
+
+    .scroll {
+      margin-top: 200px;
+      width: 250px;
+      height: 500px;
+    }
+
+    .mnemosyne {
+      margin-top: 200px;
+      width: 320px;
+      height: 450px;
+    }
+
+
   }
 
   @media (min-width:500px) and (max-width: 960px){
 
-    .image-large-horizontal{
+    .large-horizontal{
       width: 720px;
       height: 600px;
       transform: scale(35%, 30%);
       margin-bottom: 250px;
     }
 
-    .image-large-vertical{
+    .large-vertical{
       width: 550px;
+      height: 600px;
+      transform: scale(30%, 33%);
+      margin-bottom: 250px;
+    }
+
+    .landscape{
+      width: 700px;
+      height: 600px;
+      transform: scale(48%, 33%);
+      margin-bottom: 250px;
+    }
+
+    .scroll{
+      width: 550px;
+      height: 600px;
+      transform: scale(30%, 33%);
+      margin-bottom: 250px;
+      object-fit: cover;
+      object-position: 50% 0;
+      
+    }
+
+    .mnemosyne{
+      width: 520px;
       height: 600px;
       transform: scale(30%, 33%);
       margin-bottom: 250px;
@@ -124,17 +159,37 @@
   
   @media screen and (max-width: 800px) {
 
-    .image-large-horizontal{
+    .large-horizontal{
       width: 720px;
       height: 600px;
       transform: scale(30%, 28%);
     }
 
-    .image-large-vertical{
+    .large-vertical{
       width: 550px;
       height: 600px;
       transform: scale(38%, 40%);
     }
+
+    .landscape{
+      width: 800px;
+      height: 600px;
+      transform: scale(30%, 28%);
+    }
+
+    .scroll{
+      margin-top: 100px;
+      width: 500px;
+      height: 1000px;
+      transform: scale(38%, 40%);
+    }
+
+    .mnemosyne{
+      width: 520px;
+      height: 650px;
+      transform: scale(38%, 40%);
+    }
+    
 
     .slider{
       height: 70rem;

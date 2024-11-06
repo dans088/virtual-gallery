@@ -14,7 +14,14 @@ export const SliderData = [
     {
         image:"Dibujos/Ineinander.jpg",
         alt:"large-vertical"
+    },
+    {
+        image:"Dibujos/huerfanita.JPG",
+        alt:"large-horizontal"
+    },
+    {
+        image:"Dibujos/frijoles.JPG",
+        alt:"large-horizontal"
     }
-    
 
 ];

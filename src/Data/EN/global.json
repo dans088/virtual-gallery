@@ -156,36 +156,42 @@
         "year" : "2024"
     },
     "slider3image7":{
+        "title": "Pursue", 
+        "format" : "Pencil on paper",
+        "dimensions" : "75 x 35 cm",
+        "year" : "2024"
+    },
+    "slider3image8":{
         "title": "The Black Sun", 
         "format" : "Charcoal on paper",
         "dimensions" : "35.6x 43.2 cm",
         "year" : "2024"
     },
-    "slider3image8":{
+    "slider3image9":{
         "title": "The Source", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2023"
     },
-    "slider3image9":{
+    "slider3image10":{
         "title": "Will", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image10":{
+    "slider3image11":{
         "title": "Touch", 
         "format" : "Charcoal and color pencil on paper",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image11":{
+    "slider3image12":{
         "title": "Pact", 
         "format" : "Charcoal and color pencil on paper",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image12":{
+    "slider3image13":{
         "title": "Things I have unlearned", 
         "format" : "Charcoal and color pencil on paper",
         "dimensions" : "1000 x 1015 cm",
@@ -228,6 +234,12 @@
         "year" : "2024"
     },
     "slider4image6":{
+        "title": "Odalisque", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35 x 45 cm",
+        "year" : "2024"
+    },
+    "slider4image7":{
         "title": "Mnemosyne", 
         "format" : "Pencil on paper",
         "dimensions" : "38 x 25 cm",
@@ -255,6 +267,18 @@
         "title": "Ineinander", 
         "format" : "Charcoal and color pencil on paper",
         "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2024"
+    },
+    "slider5image4" :{
+        "title": "Little oprhan", 
+        "format" : "Chalk drawing",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider5image5" :{
+        "title": "Chili beans", 
+        "format" : "Chalk drawing",
+        "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     }
 
