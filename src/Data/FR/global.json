@@ -280,6 +280,18 @@
         "format" : "Dessin",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
+    },
+    "slider5image6" :{
+        "title": "P'tite voiture", 
+        "format" : "Dessin",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider5image7" :{
+        "title": "Pathos", 
+        "format" : "Dessin",
+        "dimensions" : "43.2 x 35.6 cm",
+        "year" : "2024"
     }
 
 

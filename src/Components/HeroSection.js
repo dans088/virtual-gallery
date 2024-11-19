@@ -33,12 +33,12 @@ function HeroSection() {
             
           />
           
-          <p> Read images as they unfold</p>
+          
           <div className ="hero-btns">
           <Link to='/HowItWorks' className='btn-mobile'>
             <Button className='btns' buttonStyle='btn--outline'
             buttonSize='btn--large'>
-                HOW IT WORKS 
+                What is a drawing?
             </Button>
           </Link>
           </div>

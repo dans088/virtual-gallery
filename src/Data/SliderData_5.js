@@ -22,6 +22,14 @@ export const SliderData = [
     {
         image:"Dibujos/frijoles.JPG",
         alt:"large-horizontal"
+    },
+    {
+        image:"Dibujos/cochecito.jpg",
+        alt:"large-horizontal"
+    },
+    {
+        image:"Dibujos/pathos.jpg",
+        alt:"large-vertical"
     }
 
 ];
