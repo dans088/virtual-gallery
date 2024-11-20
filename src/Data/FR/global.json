@@ -66,6 +66,12 @@
         "year" : "2024"
     },
     "slider1image10":{
+        "title": "Ouvert", 
+        "format" : "Dessin à fusain",
+        "dimensions" : "70 x 90 cm",
+        "year" : "2024"
+    },
+    "slider1image11":{
         "title": "Reflet-reflétant", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "35.6 x 43,2 cm",
@@ -120,81 +126,87 @@
         "year" : "2024"
     },
     "slider3image1":{
+        "title": "Laisse tomber", 
+        "format" : "Dessin",
+        "dimensions" : "65 x 65 cm",
+        "year" : "2024"
+    },
+    "slider3image2":{
         "title": "La tragédie des sexes", 
         "format" : "Dessin",
         "dimensions" : "35 x 45 cm",
         "year" : "2024"
     },
-    "slider3image2":{
+    "slider3image3":{
         "title": "Angoisse", 
         "format" : "Dessin",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2021"
     },
-    "slider3image3":{
+    "slider3image4":{
         "title": "Pour-autrui", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "35.6 x 43.2 cm",
         "year" : "2024"
     },
-    "slider3image4":{
+    "slider3image5":{
         "title": "Gniy/Gnay", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "42 x 29.7 cm",
         "year" : "2024"
     },
-    "slider3image5":{
+    "slider3image6":{
         "title": "L'oblique-recte", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "60 x 40 cm",
         "year" : "2024"
     },
-    "slider3image6":{
+    "slider3image7":{
         "title": "À mi-chemin", 
         "format" : "Pastel sec sur papier",
         "dimensions" : "66 x 35 cm",
         "year" : "2024"
     },
-    "slider3image7":{
+    "slider3image8":{
         "title": "Au bout du chemin", 
         "format" : "Pastel sec sur papier",
         "dimensions" : "75 x 35 cm",
         "year" : "2024"
     },
-    "slider3image8":{
+    "slider3image9":{
         "title": "Soleir Noir", 
         "format" : "Pastel sec sur papier",
         "dimensions" : "35.6 x 43,2 cm",
         "year" : "2024"
     },
-    "slider3image9":{
+    "slider3image10":{
         "title": "La Source", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "35.6 x 43,2 cm",
         "year" : "2023"
     },
-    "slider3image10":{
+    "slider3image11":{
         "title": "Choix", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image11":{
+    "slider3image12":{
         "title": "Tact", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image12":{
+    "slider3image13":{
         "title": "Pacte", 
         "format" : "Pastel sec et crayon de couleur sur papier",
         "dimensions" : "43.2 x 35.6 cm",
         "year" : "2023"
     },
-    "slider3image13":{
+    "slider3image14":{
         "title": "Nouvelles habitudes", 
         "format" : "Pastel sec et crayon de couleur sur papier",
-        "dimensions" : "1000 x 1015 cm",
+        "dimensions" : "100 x 105 cm",
         "year" : "2024"
     },
     "slider4image0":{

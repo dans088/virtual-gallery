@@ -4,6 +4,10 @@ export const SliderData = [
         alt:"landscape"
     },
     {
+        image:"Dibujos/Nevermind.jpg",
+        alt:"large-horizontal"
+    },
+    {
         image:"Dibujos/IMG_0209.JPG",
         alt:"large-horizontal"
     },

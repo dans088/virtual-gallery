@@ -41,6 +41,10 @@ export const SliderData = [
         alt:"large-horizontal"
     },
     {
+        image:"Dibujos/Open.jpg",
+        alt:"large-horizontal"
+    },
+    {
         image:"Dibujos/reflet.jpg",
         alt:"large-horizontal"
     }
