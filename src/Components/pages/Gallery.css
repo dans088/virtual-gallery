@@ -16,7 +16,7 @@
 .child-two.active{
    
     opacity: 1;
-    transform: translateY(-50%) !important;
+    transform: translateY(-35%) !important;
     /*box*/
     padding: 23px;
     border-width: 2px;
@@ -36,12 +36,12 @@
 
     .child-two{
         opacity: 0;
-        transition: all 0.2s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
     
     .child-two.active{
         opacity: 1;
-        transform: translateY(-100%) !important; 
+        transform: translateY(-80%) !important; 
    
     }
 
