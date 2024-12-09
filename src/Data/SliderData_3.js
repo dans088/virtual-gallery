@@ -32,7 +32,7 @@ export const SliderData = [
         alt:"scroll"
     },
     {
-        image:"Dibujos/fisherman.jpg",
+        image:"Dibujos/AuBout.jpg",
         alt:"scroll"
     },
     {

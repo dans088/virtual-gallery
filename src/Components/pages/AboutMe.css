@@ -1,6 +1,6 @@
 .aboutMe{
     padding: 4rem;
-    height: 1500px;
+    height: 100%;
     background: #fcf7f6;
 }
 
@@ -43,7 +43,6 @@ h1 {
 
     .aboutMe{
         padding: 1;
-        height: 3200px;
     }
 
     .lang-box-me{

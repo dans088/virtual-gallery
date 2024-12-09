@@ -47,7 +47,7 @@
         "title": "Freedom", 
         "format" : "Pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
-        "year" : "20222"
+        "year" : "2022"
     },
     "slider1image7":{
         "title": "Conscience", 
@@ -68,7 +68,7 @@
         "year" : "2024"
     },
     "slider1image10":{
-        "title": "Open", 
+        "title": "Heritage", 
         "format" : "Charcoal drawing",
         "dimensions" : "70 x 90 cm",
         "year" : "2024"
@@ -77,6 +77,18 @@
         "title": "Follow my lead", 
         "format" : "Charcoal and pencil on paper",
         "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider1image12":{
+        "title": "Mate-Check", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider1image13":{
+        "title": "Magpie", 
+        "format" : "Charcoal and pencil on paper",
+        "dimensions" : "43.2 x 35.6 cm",
         "year" : "2024"
     },
     "slider2image0":{
@@ -259,6 +271,12 @@
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
     },
+    "slider4image8":{
+        "title": "Thanatos", 
+        "format" : "Pencil on paper",
+        "dimensions" : "45 x 35 cm",
+        "year" : "2024"
+    },
     "slider5image0" :{
         "title": "Tastes", 
         "format" : "Charcoal and pencil on paper",
@@ -302,6 +320,12 @@
         "year" : "2024"
     },
     "slider5image7" :{
+        "title": "Little tree", 
+        "format" : "Chalk drawing",
+        "dimensions" : "66 x 42.5 cm",
+        "year" : "2024"
+    },
+    "slider5image8" :{
         "title": "Pathos", 
         "format" : "Chalk drawing",
         "dimensions" : "43.2 x 35.6 cm",

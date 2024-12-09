@@ -1,7 +1,7 @@
 {   
     "AboutMe" : {
         "message1": "<b>2014</b> &emsp; Le lycée étant fini, il était temps de choisir un « vrai » métier. J'ai décidé de prendre une année sabbatique pour méditer sur cette question, qui se traduit souvent par : en quoi suis-je bon ? et qu'est-ce que les autres attendent de moi ? où ce dernier prend le dessus sur le premier, ainsi rendant « réel » le métier choisi. Comme le monde virtuel prenait de plus en plus de place sur le monde physique, cela signifiait pour moi d'étudier soit la finance, soit l’informatique ; cependant, comme mes deux parents s'intéressent déjà à la finance, l'informatique était la voie à suivre. Néanmoins, la curiosité de comprendre ce qu’est une « vraie » carrière m’a également poussé à étudier une licence en philosophie. J’ai été ainsi formé par deux écoles de pensée différentes (également physiquement parlant puisque j’ai fréquenté deux universités différentes). D'une part, on m'a appris à rejoindre un problème donné à sa solution ou à son algorithme correspondant, tandis que d'autre part, plusieurs lectures m'ont été signalées non pas pour en faire des résumés, mais pour en extraire les concepts clés qui ont imprégné et qui imprègnent davantage la façon de penser occidentale.<br/><br/><br/><b>2019</b> &emsp; À plus de la moitié de mon parcours, j'étais désormais capable d'écrire du code fonctionnel et de rédiger des essais lisibles. Le tout en suivant pas à pas la formule écrite par Auguste Comte (philosophe épistémologue français du début du XIXème siècle) : savoir pour prévoir, afin de pouvoir. Et pourtant, en grandissant, je me suis rendu compte plus tard que cette façon de m'engager envers le monde et les gens qui m'entourent décourage en fait tout engagement émotionnel. En d’autres termes, le prix à payer pour m’abstraire en fonctions et en concepts était de ne pas pouvoir lui être émotionnellement réciproque à mon monde. Étant donné que la partie « acte » se situe tout au bout, c'est comme si pour exister il fallait d'abord méditer. Or, la seule chose qui existe sans permission, c’est mon corps.<br/><br/><br/>",
-        "message2": ""
+        "message2": "Bien qu’assez réprimé lors de mes études, dès son plus jeune âge il s'est toujours manifesté à travers le dessin. Et, grâce aux liens émotionnels établis à ce moment-là il a démarré, c’est-à-dire, j’ai commencé à prendre le crayon plus sérieusement. Ce fut ma première étape pour substituer la formule qui m'a façonné, savoir-prévoir-agir, à celle d’agir-savoir-prévoir. Autrement dit, et en empruntant une formule plus courte : « Je pense donc je suis » pour ensuite l’inverser « Je suis donc je pense ». <br/><br/><br/><b>2022</b> &emsp; Dès que j'ai obtenu mon diplôme d'informatique, je suis parti à Paris avec le prétexte de finir mes études de philosophie. Cependant, l'objectif principal était de revisiter seul les lieux de mon enfance, ceux dont je me souvenais et me sentais à 100% corps. C’était une chasse au trésor pour me réincorporer, pour rassembler la force dont j’avais besoin pour pouvoir m’exprimer sans culpabilité ni besoin de calcul. <br/><br/><br/><b>2024</b> &emsp; Jusqu’à présent, la quête de relier l’esprit et le corps reste vivante ; chaque dessin est un nouveau nœud. Depuis que je poursuis cette autre manière de me rapporter à mon corps, et ainsi faisant, au monde, je dessine comme jamais et continuerai de le faire. <br/><br/><br/>"
     },
     "HowItWorks": {
         "message1": "Le dessin est un nœud. Cependant, il ne s’agit pas de n’importe quel type de nœud, car il s’agit d’un nœud dont le début ni la fin sont évidents, et par conséquent, sa solution n’est pas non plus apparente. Le nœud est un lien, c'est un entre deux, c'est un va et vient. Pour cette raison, il n’est pas possible d’en parler de manière homogène ou univoque, car il est plutôt hétérogène et équivoque. Autrement dit, il ne s’agit pas de décrypter si la poule ou l’œuf est arrivé en premier, mais plutôt de constater qu'ils sont intrinsèquement liés l'un de l'autre. En fait, il ne serait pas possible d’identifier l’œuf sans avoir comme référence l’autre extrémité, la poule, et vice versa. Dans le jeu de tir à la corde, par exemple, non seulement il n’y aurait pas d’équipe un sans équipe deux, mais il n’y aurait pas de jeu sans corde (figure 1). C'est donc cette tension qui fait intervenir tous les éléments : la corde, l'équipe un et l'équipe deux. Grâce à la force exercée par les deux extrêmes, il est possible de remarquer cette tension en jeu, qui dans la mesure où elle est puissante d'autant plus la situation est apparente : deux forces dirigées dans des directions opposées révèlant un lien irrémédiable (figure 2). De cette manière, le nœud gordien concerne la situation de l’être humain, puisque, d’une part, il s’agit du <em>problème</em> de l’esprit ; et, d’autre part, c’est le <em>tissu</em> du corps.<br/><br/><br/>",
@@ -68,15 +68,21 @@
         "year" : "2024"
     },
     "slider1image10":{
-        "title": "Ouvert", 
+        "title": "Héritage", 
         "format" : "Dessin à fusain",
         "dimensions" : "70 x 90 cm",
         "year" : "2024"
     },
-    "slider1image11":{
-        "title": "Reflet-reflétant", 
+    "slider1image12":{
+        "title": "mat-et-échec", 
         "format" : "Pastel sec et crayon sur papier",
         "dimensions" : "35.6 x 43,2 cm",
+        "year" : "2024"
+    },
+    "slider1image13":{
+        "title": "Pie Bavarde", 
+        "format" : "Pastel sec et crayon sur papier",
+        "dimensions" : "43.2 x 35.6 cm",
         "year" : "2024"
     },
     "slider2image0":{
@@ -259,6 +265,12 @@
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
     },
+    "slider4image8":{
+        "title": "Thanatos", 
+        "format" : "Dessin",
+        "dimensions" : "45 x 35 cm",
+        "year" : "2024"
+    },
     "slider5image0":{
         "title": "Goûts", 
         "format" : "Pastel sec et crayon sur papier",
@@ -302,6 +314,12 @@
         "year" : "2024"
     },
     "slider5image7" :{
+        "title": "P'tite arbre", 
+        "format" : "Dessin",
+        "dimensions" : "66 x 42.5 cm",
+        "year" : "2024"
+    },
+    "slider5image8" :{
         "title": "Pathos", 
         "format" : "Dessin",
         "dimensions" : "43.2 x 35.6 cm",

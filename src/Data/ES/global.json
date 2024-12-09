@@ -68,7 +68,7 @@
         "year" : "2024"
     },
     "slider1image10":{
-        "title": "Abierto", 
+        "title": "Herencia", 
         "format" : "Carbón sobre papel",
         "dimensions" : "70 x 90 cm",
         "year" : "2024"
@@ -77,6 +77,18 @@
         "title": "Sígueme el juego", 
         "format" : "Carbón y lápiz sobre papel",
         "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider1image12":{
+        "title": "Mate-Jaque", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "35.6 x 43.2 cm",
+        "year" : "2024"
+    },
+    "slider1image13":{
+        "title": "Urraca", 
+        "format" : "Carbón y lápiz sobre papel",
+        "dimensions" : "43.2 x 35.6 cm",
         "year" : "2024"
     },
     "slider2image0":{
@@ -259,6 +271,12 @@
         "dimensions" : "38 x 25 cm",
         "year" : "2024"
     },
+    "slider4image8":{
+        "title": "Tánatos", 
+        "format" : "Dibujo",
+        "dimensions" : "45 x 35 cm",
+        "year" : "2024"
+    },
     "slider5image0":{
         "title": "Gustos", 
         "format" : "Carbón y lápiz de color sobre papel",
@@ -302,6 +320,12 @@
         "year" : "2024"
     },
     "slider5image7" :{
+        "title": "Arbolito", 
+        "format" : "Dibujo",
+        "dimensions" : "66 x 42.5 cm",
+        "year" : "2024"
+    },
+    "slider5image8" :{
         "title": "Pathos", 
         "format" : "Dibujo",
         "dimensions" : "43.2 x 35.6 cm",

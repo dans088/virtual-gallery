@@ -47,7 +47,15 @@ export const SliderData = [
     {
         image:"Dibujos/reflet.jpg",
         alt:"large-horizontal"
-    }
+    },
+    {
+        image:"Dibujos/Chess.jpg",
+        alt:"large-horizontal"
+    },
+    {
+        image:"Dibujos/pia.jpg",
+        alt:"large-vertical"
+    },
 
 ];
 

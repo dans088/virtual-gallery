@@ -30,7 +30,12 @@ export const SliderData = [
     {
         image:"Dibujos/Mnemosyne.jpg",
         alt: "mnemosyne"
-    }
+    },
+    {
+        image:"Dibujos/Thanatos.jpg",
+        alt: "mnemosyne"
+    },
+
 
 
 ];
