@@ -193,7 +193,11 @@
     
 
     .slider{
-      height: 70rem;
+      height: auto;
+    }
+
+    .slide.active{
+      margin-top: 200px;
     }
 
     .left-arrow{
