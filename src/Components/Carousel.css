@@ -1,20 +1,14 @@
 .slider{
-    width: 100%;
-    position: relative;
+    
+    overflow: hidden;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     
 }
 
 .image-zoom{
     transform: scale(2, 2);
-}
-
-
-.slide{
-    opacity: 0;
-    transition-duration: 1s ease;
 }
 
 .slide:hover{
@@ -59,7 +53,7 @@
   .back-btn {
     transform: scale(5);
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 32px;
     font-size: 0.3rem;
     color: #000;
@@ -68,6 +62,21 @@
     user-select: none;
     padding: 0;
   }
+
+  .info-btn{
+    transform: scale(5);
+    position: absolute;
+    top: 75%; /* Moves button to the middle vertically */
+    left: 50%; /* Moves button to the middle horizontally */
+    padding: 10px 20px;
+    font-size: 0.3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+    padding: 0;
+  }
+
 
   @media screen and (min-width: 1024px) {
     .slider{

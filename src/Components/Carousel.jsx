@@ -8,7 +8,11 @@ import Description from'./Description';
 
 
 const Carousel = ({ data }) => {
-    
+    /*
+    //info block hook
+    const [isOpen, setOpen] = useState(false);
+    */
+
     //slider hook
     const [current, setCurrent] = useState(0);
     //zoom hook
@@ -93,18 +97,22 @@ const Carousel = ({ data }) => {
             
             {!isZoom && (
                 <>
+                
                 <Link to ='/' className='back-btn'>
                     <i class="fa-solid fa-house"></i>
                 </Link>
 
                 <div className='left-arrow' onClick={prevSlide}>
-                    <i class="fa fa-circle" aria-hidden="true"></i>
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i>
                 </div>
                 
                 <div className='right-arrow' onClick={nextSlide}>
-                    <i class="fa fa-circle" aria-hidden="true"></i> 
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i> 
                 </div>
+                
+    
                 </>
+
             )}
             {data.map((slide, index) => {
                 return (

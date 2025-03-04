@@ -7,7 +7,7 @@ import Description from '../Description';
 
 export default function GalleryOne(props){
 
-
+    
     const [offset, setOffset] = useState(0);
 
     
@@ -35,7 +35,7 @@ export default function GalleryOne(props){
     
 
     //console.log("o: ",offset);
-
+    
     return (
     
     <div className='gallery-container'>

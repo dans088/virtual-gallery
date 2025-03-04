@@ -8,6 +8,7 @@ import {Button} from './Button'
 
 const Description = (props) => {
     
+    
     const location = useLocation();
     const [galleryName, setGalleryName] = useState("");
 
@@ -66,6 +67,8 @@ const Description = (props) => {
     //console.log("definition_hook: ",  props.current);
 
     return (
+        <>
+        
         <div id='imgDescription' className='child-two'>
             <div className= 'language-bttns'>
                     <Button buttonStyle="btn--outline" buttonSize="btn--small" onClick={()=>handleChangeLanguage("en")}>EN</Button>
@@ -85,6 +88,8 @@ const Description = (props) => {
                 <h1>{t(imageYear)}</h1> 
             </div>
         </div>
+
+        </>
     )
 }
 

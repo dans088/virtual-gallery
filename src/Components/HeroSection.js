@@ -12,9 +12,9 @@ function HeroSection() {
 
     const loadVideo = () => {
       if (window.innerWidth <= 960) {
-        setVideo('videos/video2.mp4');
+        setVideo('videos/Movie (2).mp4');
       } else {
-        setVideo('videos/video.mp4');
+        setVideo('videos/Movie.mp4');
       }
     };
 
