@@ -32,7 +32,11 @@ export const slides = [
     {
         src:"Dibujos/tunel.jpg",
         description:"Outside-In, 42x59 cm, 2025"
-    }
+    },
+    {
+        src:"Dibujos/pia.jpg",
+        description:"Pia, 43.2x35.6 cm, 2024"
+    },
 
     
 

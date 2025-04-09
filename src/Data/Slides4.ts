@@ -33,6 +33,10 @@ export const slides = [
         description: "Little tree, 66x42 cm, 2024"
     },
     {
+        src:"Dibujos/En-soi-pour-soi.jpg",
+        description:"Destination Unknown, 35.6x43.2 cm, 2024"
+    },
+    {
         src:"Dibujos/IMG_0255.jpg",
         description:"Pathos, 43.2x35.6 cm, 2024"
     }

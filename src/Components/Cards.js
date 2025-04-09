@@ -39,7 +39,7 @@ function Cards() {
                 />
               
                 <CardItem 
-                  src= "Dibujos/En-soi.jpg"
+                  src= "Dibujos/ensoi2.jpg"
                   text= "The Body"
                   path='/galleryFive'
               />

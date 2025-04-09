@@ -1,7 +1,7 @@
 export const slides = [
 
     {
-        src:"Dibujos/En-soi.jpg",
+        src:"Dibujos/ensoi2.jpg",
         description:"Complete half, 43.2x35.6 cm, 2024"
     },
     {
