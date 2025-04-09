@@ -8,10 +8,10 @@ import SeriesTwo from './Components/pages/GalleryTwo';
 import SeriresThree from './Components/pages/GalleryThree';
 import SeriesFour from './Components/pages/GalleryFour';
 import SeriesFive from './Components/pages/GalleryFive';
+import SeriesSix from './Components/pages/GallerySix';
 import Works from './Components/pages/HowItWorks';
 import About from './Components/pages/AboutMe';
-import SignUp from './Components/pages/SignUp';
-import MayShowNavbar from './Components/MayShowNavbar';
+
 import ScrollToTop from './Components/ScrollToTop';
 
 
@@ -24,9 +24,9 @@ function App() {
     <>
       <Router>
         <ScrollToTop />
-          <MayShowNavbar>
+          
             <Navbar />
-          </MayShowNavbar>
+          
        <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path= '/galleryOne' element={<SeriesOne/>}/>
@@ -34,9 +34,9 @@ function App() {
         <Route path= '/galleryThree' element={<SeriresThree/>}/>
         <Route path= '/galleryFour' element={<SeriesFour/>}/>
         <Route path= '/galleryFive' element={<SeriesFive/>}/>
+        <Route path= '/gallerySix' element={<SeriesSix/>}/>
         <Route path= '/HowItWorks' element={<Works/>}/>
         <Route path= '/AboutMe' element={<About/>}/>
-        <Route path= '/sign-up' element={<SignUp/>}/>
        </Routes>
       </Router>
     </>

@@ -1,3 +1,4 @@
+/*
 import React from 'react'
 import Carousel from '../Carousel'
 import './Gallery.css';
@@ -54,3 +55,30 @@ export default function GalleryOne(props){
     );
 
 }
+*/
+
+import React from 'react'
+import Grid from '../Grid'
+import {slides} from '../../Data/Slides1.ts'
+import './Gallery.css'
+
+
+
+export default function GalleryOne(){
+
+    return (
+    
+        <div style={{border:"80px solid #fcf7f6", height:"5000px", width:"100vw", backgroundColor:"#fcf7f6"}}>
+            <Grid
+            slides = {slides}
+            />
+        </div>
+    
+           
+    );
+
+}
+
+
+
+

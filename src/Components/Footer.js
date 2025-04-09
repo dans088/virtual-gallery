@@ -9,7 +9,7 @@ function Footer() {
     <div id='contact' className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-            Get a notification each time a new drawing is uploaded!
+            Get a notification each time a new drawing is uploaded
         </p>
         
         <div className='input-areas'>
@@ -52,15 +52,9 @@ function Footer() {
                     />
                 </Link>
             </div>
-            <small className='website-rights'> DANIEL ATILANO | Artist © 2024</small>
+            <small className='website-rights'> GRADIVAS | Artist © 2024</small>
             <div className='social-icons'>
-                <Link className='social-icon-link facebook'
-                to= "https://m.facebook.com/daniel.atilano.18/"
-                target="_blank"
-                aria-label="Facebook"
-                >
-                    <i className='fab fa-facebook'/>
-                </Link>
+             
                 <Link className='social-icon-link instagram'
                 to= "https://instagram.com/daniel_atilano__/"
                 target="_blank"
@@ -68,14 +62,8 @@ function Footer() {
                 >
                     <i className='fab fa-instagram'/>
                 </Link>
-                <Link
-                class='social-icon-link linkedin'
-                to='https://www.linkedin.com/in/daniel-atilano-casillas'
-                target='_blank'
-                aria-label='LinkedIn'
-                >
-                    <i class='fab fa-linkedin' />
-                </Link>
+               
+               
             </div>
         </div>
     </section>
