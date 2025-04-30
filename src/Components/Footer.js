@@ -56,11 +56,11 @@ function Footer() {
             <div className='social-icons'>
              
                 <Link className='social-icon-link instagram'
-                to= "https://instagram.com/daniel_atilano__/"
+                to= "https://instagram.com/_gradivas_/"
                 target="_blank"
                 aria-label="Instagram"
                 >
-                    <i className='fab fa-instagram'/>
+                    <i className='fab fa-instagram' style={{position: 'relative', right:'-110px'}}/>
                 </Link>
                
                
