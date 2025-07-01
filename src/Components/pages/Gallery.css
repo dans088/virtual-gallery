@@ -1,9 +1,10 @@
-.gallery-container{
+.gallery-container {
     height: 100%;
-    position: flex;
-    overflow-y: hidden;
+    position: relative;     /* ✅ Use a valid position */
+    overflow-y: auto;       /* ✅ Allow vertical scrolling */
     background-color: #b8b0af;
 }
+
 
 
 .child-two{
@@ -49,7 +50,7 @@
 
 @media (min-width:500px) and (max-width: 960px){
     .gallery-container{
-        overflow: hidden;
+        overflow-y: auto;
     }
 
     .child-two{
