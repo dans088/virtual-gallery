@@ -67,13 +67,13 @@ import './Gallery.css'
 export default function GalleryOne(){
 
     return (
-    
-        <div style={{border:"80px solid #fcf7f6", height:"5000px", width:"100vw", backgroundColor:"#fcf7f6"}}>
+        
+        <div style={{border:"80px solid #fcf7f6", height:"auto", width:"100vw", backgroundColor:"#fcf7f6"}}>
             <Grid
             slides = {slides}
             />
         </div>
-    
+        
            
     );
 
