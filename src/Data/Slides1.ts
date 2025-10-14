@@ -4,10 +4,11 @@ export const slides = [
         src:"Dibujos/Foi.jpg",
         description: "Faith, 35.6x43.2cm, 2022"
     },
+    /*
     {
         src:"Dibujos/Consciencia(1).jpg",
         description: "Conscience, 43.2x35.6cm, 2022"
-    },
+    },*/
     {
         src:"Dibujos/Devenir(1).jpg",
         description:"Becoming, 35.6x43.2cm, 2022"
