@@ -19,10 +19,12 @@ export const slides = [
         src:"Dibujos/224.jpeg",
         description:"2-2-4, 1,5x1 m, 2024"
     },
+    /*
     {
         src:"Dibujos/01123(2).jpg",
-        description:"1-2-3-, 43.2x35.6 cm, 2024"
+        description:"1-2-3-, 43.2x35.6 cm, 2025"
     },
+    */
     {
         src:"Dibujos/pour-soi.jpg",
         description:"Ever-Me, 35.6x43.2 cm, 2024"
