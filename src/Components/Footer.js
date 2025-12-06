@@ -28,7 +28,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
                 <h2>Let's talk!</h2>
-                <Link to='mailto:daniel.atilano@live.com'>
+                <Link to='mailto:contact@gradivas.art'>
                     <i class="fa-solid fa-envelope" style={{position: 'relative', right:'-42px', color: '#ffffff'}}></i>
                 </Link>
                 <Link to='/'></Link>
