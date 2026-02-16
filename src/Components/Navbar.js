@@ -47,7 +47,7 @@ function Navbar() {
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
-                Home
+                Accueil
               </a>
             </li>
             <li className='nav-item'>
@@ -56,8 +56,18 @@ function Navbar() {
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
-                Gallery
+                Galerie
               </a>
+            </li>
+            <li className='nav-item'>
+              <a
+                href='/howItWorks'
+                className='nav-links nav-btn'
+                onClick={closeMobileMenu}
+              >
+                Qu'est-ce un dessin ?
+              </a>
+              
             </li>
 
             <li className='nav-item'>
@@ -66,7 +76,7 @@ function Navbar() {
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
-                About Me
+                À propos
               </Link>
             </li>
 
@@ -77,7 +87,7 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Follow me
+                Contact
               </a>
             </li>
 
@@ -85,7 +95,7 @@ function Navbar() {
             
             
           </ul>
-          {button && <a href='/#contact'> <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Follow Me</Button></a>}
+          {button && <a href='/#contact'> <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Contact</Button></a>}
         
            
         </div>

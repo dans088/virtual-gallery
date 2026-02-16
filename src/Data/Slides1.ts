@@ -2,7 +2,7 @@ export const slides = [
 
     {
         src:"Dibujos/Foi.jpg",
-        description: "Faith, 35.6x43.2cm, 2022"
+        description: "Foi, 35.6x43.2cm, 2022"
     },
     {
         src:"Dibujos/Consciencia(1).jpg",
@@ -10,11 +10,11 @@ export const slides = [
     },
     {
         src:"Dibujos/Devenir(1).jpg",
-        description:"Becoming, 35.6x43.2cm, 2022"
+        description:"Devenir, 35.6x43.2cm, 2022"
     },
     {
         src:"Dibujos/libertad(1).jpg",
-        description:"Freedom, 35.6x43.2cm, 2022"
+        description:"Liberté, 35.6x43.2cm, 2022"
     },
     {
         src:"Dibujos/Open.png",
@@ -22,23 +22,23 @@ export const slides = [
     },
     {
         src:"Dibujos/MyT.jpg",
-        description:"In between Heaven and Earth, 35.6x43.2 cm, 2024"
+        description:"Entre le ciel et la terre, 35.6x43.2 cm, 2024"
     },
     {
         src:"Dibujos/Source.jpg",
-        description:"The Source, 35.6x43.2 cm, 2023"
+        description:"La source, 35.6x43.2 cm, 2023"
     },
     {
         src:"Dibujos/Voluntad-.jpg",
-        description:"Will, 43.2x35.6 cm, 2023"
+        description:"Volonté, 43.2x35.6 cm, 2023"
     },
     {
         src:"Dibujos/tacto.jpg",
-        description:"Tact, 43.2cx35.6 cm, 2023"
+        description:"Tacte, 43.2cx35.6 cm, 2023"
     },
     {
         src:"Dibujos/pacto.jpg",
-        description:"Pact, 43.2x35.6 cm, 2023"
+        description:"Pacte, 43.2x35.6 cm, 2023"
     },
     {
         src:"Dibujos/contacto.jpg",
@@ -46,7 +46,7 @@ export const slides = [
     },
     {
         src:"Dibujos/GKnot.jpg",
-        description:"Gordian Knot, 50x70 cm, 2024"
+        description:"Nœud Gordian , 50x70 cm, 2024"
     },
     {
         src:"Dibujos/Sabotaje.jpg",
@@ -54,11 +54,11 @@ export const slides = [
     },
     {
         src:"Dibujos/Nevermind.jpg",
-        description:"Nevermind, 65x65 cm, 2024"
+        description:"Laisse tomber, 65x65 cm, 2024"
     },
     {
         src:"Dibujos/honestidad.jpg",
-        description:"Honesty, 55x77 cm, 2024"
+        description:"Honnêteté, 55x77 cm, 2024"
     },
 
 

@@ -1,7 +1,7 @@
 export const slides = [
     {
         src:"Dibujos/velo.jpg",
-        description: "Come to the world, 43.2x35.6 cm, 2022"
+        description: "Viens au monde, 43.2x35.6 cm, 2022"
     },
     {
         src:"Dibujos/Un dos.jpg",
@@ -37,7 +37,7 @@ export const slides = [
     },
     {
         src:"Dibujos/Abismo.jpg",
-        description:"The Lord of the Great Abyss, 97x67 cm, 2025"
+        description:"Le seigneur de l'abîme, 97x67 cm, 2025"
     }
 
 

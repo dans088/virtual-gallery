@@ -1,4 +1,4 @@
-import React from 'react'
+import React , {useEffect} from 'react';
 import './HowItWorks.css'
 import { useTranslation } from 'react-i18next';
 import { Button } from '../Button';
@@ -7,6 +7,11 @@ import '../Navbar';
 export default function HowItWorks(){
 
     const [t, i18n] = useTranslation("global");
+
+    //Set default language to French on load
+    useEffect(() => {
+        i18n.changeLanguage("fr");
+    }, [i18n]);
 
     const handleChangeLanguage = (lang: string) => {
         i18n.changeLanguage(lang);

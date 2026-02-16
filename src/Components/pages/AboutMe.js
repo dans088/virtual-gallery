@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react';
 import './AboutMe.css'
 import { useTranslation } from 'react-i18next';
 import { Button } from '../Button';
@@ -7,6 +7,11 @@ import '../Navbar';
 export default function AboutMe(){
 
     const [t, i18n] = useTranslation("global");
+
+    // 👉 Set default language to French on load
+    useEffect(() => {
+        i18n.changeLanguage("fr");
+    }, [i18n]);
 
     const handleChangeLanguage = (lang: string) => {
         i18n.changeLanguage(lang);
@@ -24,7 +29,7 @@ export default function AboutMe(){
     return (
 
     <div id = 'aboutMe'className='aboutMe'>
-        <h1>About Me</h1>
+        <h1>À propos</h1>
         
         <div className= 'lang-box-me'>
                     <Button buttonStyle="btn--outline-2" buttonSize="btn--medium" onClick={()=>handleChangeLanguage("en")}>EN</Button>

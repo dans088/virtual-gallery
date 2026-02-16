@@ -59,9 +59,15 @@ const Description = (props) => {
     
     const [t, i18n] = useTranslation("global");
 
+    //Set default language to French on load
+    useEffect(() => {
+        i18n.changeLanguage("fr");
+    }, [i18n]);
+
     const handleChangeLanguage = (lang: string) => {
         i18n.changeLanguage(lang);
     };
+
     
     
     //console.log("definition_hook: ",  props.current);

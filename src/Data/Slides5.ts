@@ -2,7 +2,7 @@ export const slides = [
 
     {
         src:"Dibujos/ensoi2.jpg",
-        description:"Complete half, 43.2x35.6 cm, 2024"
+        description:"En soi, 43.2x35.6 cm, 2024"
     },
     {
         src:"Dibujos/Jenny.jpg",
@@ -10,7 +10,7 @@ export const slides = [
     },
     {
         src:"Dibujos/Sceau.jpg",
-        description:"Spirit, 25x38 cm, 2024"
+        description:"Cheval, 25x38 cm, 2024"
     },
     {
         src:"Dibujos/Zorba.jpg",
@@ -18,7 +18,7 @@ export const slides = [
     },
     {
         src:"Dibujos/IMG_0203.jpg",
-        description:"Maenad, 25x38 cm, 2024"
+        description:"Ménade, 25x38 cm, 2024"
     },
     {
         src:"Dibujos/odalisca.JPG",
@@ -26,7 +26,7 @@ export const slides = [
     },
     {
         src:"Dibujos/IMG_0209.JPG",
-        description:"The Tragedy of the Sexes, 35x45 cm, 2024"
+        description:"La tragédie des sexes, 35x45 cm, 2024"
     },
     {
         src:"Dibujos/___.jpeg",

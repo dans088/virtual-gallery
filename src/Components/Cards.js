@@ -11,36 +11,36 @@ function Cards() {
              <ul className='cards__items'>
                 <CardItem 
                   src= "Dibujos/libertad(1).jpg"
-                  text= "Touch"
+                  text= "Mains"
                   path='/galleryOne'
                 />
                 <CardItem 
                   src= "Dibujos/sombrero.JPEG"
-                  text= "The Tragedy of Culture"
+                  text= "Crayon"
                   path='/galleryTwo'
                 />
                 <CardItem 
                   src= "Dibujos/Chess.jpg"
-                  text= "Black and White"
+                  text= "Noir et blanc"
                   path='/gallerySix'
                 />
              </ul>
              <ul className='cards__items'>
                 <CardItem 
                   src= "Dibujos/red-mask.jpg"
-                  text= "Faces"
+                  text= "Portraits"
                   path='/galleryThree'
                 />
 
                 <CardItem 
                     src= "Dibujos/frijoles.JPG"
-                    text= "Color"
+                    text= "Pastels"
                     path='/galleryFour'
                 />
               
                 <CardItem 
                   src= "Dibujos/ensoi2.jpg"
-                  text= "The Body"
+                  text= "Corps"
                   path='/galleryFive'
               />
              </ul>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button} from './Button'
+//import {Button} from './Button'
 import './Footer.css'
 import {Link} from 'react-router-dom'
 import myLogo from '../Firma_Blanca.png';
@@ -9,9 +9,9 @@ function Footer() {
     <div id='contact' className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-            Get a notification each time a new drawing is uploaded
+            Chaque dessin naît d’un échange.
         </p>
-        
+        {/*
         <div className='input-areas'>
             <form>
                 <input 
@@ -23,11 +23,12 @@ function Footer() {
             <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Subscribe</Button>    
             </form>
         </div>
+        */}
       </section>
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
             <div className='footer-link-items'>
-                <h2>Let's talk!</h2>
+                <h2>M'écrire</h2>
                 <Link to='mailto:contact@gradivas.art'>
                     <i class="fa-solid fa-envelope" style={{position: 'relative', right:'-42px', color: '#ffffff'}}></i>
                 </Link>

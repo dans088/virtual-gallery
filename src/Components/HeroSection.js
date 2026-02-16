@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import '../App.css';
 import {Button} from './Button';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import './HeroSection.css';
 
 
@@ -35,12 +35,12 @@ function HeroSection() {
           
           
           <div className ="hero-btns">
-          <Link to='/HowItWorks' className='btn-mobile'>
+          <a href='/#contact' className='btn-mobile'>
             <Button className='btns' buttonStyle='btn--outline'
             buttonSize='btn--large'>
-                What is a drawing?
+                Me contacter
             </Button>
-          </Link>
+          </a>
           </div>
         </div>
     )
