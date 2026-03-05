@@ -35,10 +35,10 @@ function HeroSection() {
           
           
           <div className ="hero-btns">
-          <a href='/#contact' className='btn-mobile'>
+          <a href='/BuyingProtocol' className='btn-mobile'>
             <Button className='btns' buttonStyle='btn--outline'
             buttonSize='btn--large'>
-                Me contacter
+                Acquérir un dessin
             </Button>
           </a>
           </div>

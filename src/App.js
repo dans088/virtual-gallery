@@ -11,6 +11,7 @@ import SeriesFive from './Components/pages/GalleryFive';
 import SeriesSix from './Components/pages/GallerySix';
 import Works from './Components/pages/HowItWorks';
 import About from './Components/pages/AboutMe';
+import Protocol from './Components/pages/BuyingProtocol';
 
 import ScrollToTop from './Components/ScrollToTop';
 
@@ -37,6 +38,7 @@ function App() {
         <Route path= '/gallerySix' element={<SeriesSix/>}/>
         <Route path= '/HowItWorks' element={<Works/>}/>
         <Route path= '/AboutMe' element={<About/>}/>
+        <Route path= '/BuyingProtocol' element={<Protocol/>}/>
        </Routes>
       </Router>
     </>
