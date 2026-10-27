@@ -27,18 +27,25 @@
       content="Découvrez les dessins originaux de Gradivas Art : œuvres au fusain et pastel, entre geste, mémoire et émotion." 
     />
   </head>
-  <body>
+   <body>
     <noscript>Dessins originaux au fusain et pastel | Gradivas Art</noscript>
+
+    <!-- Hidden form for Netlify Forms detection -->
+    <form
+      name="acquisition"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="acquisition" />
+      <input type="hidden" name="artwork" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
+
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+</html>
 </html>
