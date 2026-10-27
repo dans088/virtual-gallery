@@ -26,16 +26,23 @@ function Footer() {
         </div>
         */}
       </section>
-      <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-            <div className='footer-link-items'>
-                <h2>M'écrire</h2>
-                <Link to='mailto:contact@gradivas.art'>
-                    <i class="fa-solid fa-envelope" style={{position: 'relative', right:'-42px', color: '#ffffff'}}></i>
-                </Link>
-                <Link to='/'></Link>
-            </div>
-        </div>
+    <div className="footer-link-items">
+        <h2>Contact</h2>
+
+        <a
+            href="tel:+330659155808"
+            className="footer-phone"
+        >
+            +33 06 59 15 58 08
+        </a>
+
+        <a
+            href="mailto:contact@gradivas.art"
+            className="footer-email"
+            aria-label="M'envoyer un e-mail"
+        >
+            <i className="fa-solid fa-envelope" />
+        </a>
     </div>
     <section className='social-media'>
         <div className='social-media-wrap'>
@@ -48,13 +55,20 @@ function Footer() {
                     className='social-logo'
                     style={{
                         position: 'relative', 
-                        top: '10px',
-                        left: '-10px',
+                        
                         maxWidth:'100px'}}
                     />
                 </Link>
             </div>
-            <small className='website-rights'> GRADIVAS | Artist © 2024</small>
+            <small
+                className='website-rights'
+                style={{
+                    position: 'relative',
+                    left: '50px'
+                }}
+            >
+                GRADIVAS | Artist © 2024
+            </small>
             <div className='social-icons'>
              
                 <Link className='social-icon-link instagram'
