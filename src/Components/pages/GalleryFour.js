@@ -60,14 +60,14 @@ import React from 'react'
 import Grid from '../Grid'
 import {slides} from '../../Data/Slides4.ts'
 import './Gallery.css'
-
+import '../ScrollToTop.js'
 
 
 export default function GalleryFour(){
 
     return (
     
-        <div style={{border:"80px solid #fcf7f6", height:"5000px", width:"100vw", backgroundColor:"#fcf7f6"}}>
+        <div style={{border:"80px solid #303030", height:"5000px", width:"100vw", backgroundColor:"#303030"}}>
             <Grid
             slides = {slides}
             />

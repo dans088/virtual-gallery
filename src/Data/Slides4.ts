@@ -5,10 +5,6 @@ export const slides = [
         description: "Goûts, 35.6x43.2 cm, 2023"
     },
     {
-        src:"Dibujos/habitos.jpg",
-        description:"Habitudes, 75x55 cm, 2024"
-    },
-    {
         src:"Dibujos/Fantome.jpg",
         description:"Temple d'enfance, 75x55 cm, 2024"
     },

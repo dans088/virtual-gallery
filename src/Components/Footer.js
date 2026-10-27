@@ -8,9 +8,10 @@ function Footer() {
   return (
     <div id='contact' className='footer-container'>
       <section className='footer-subscription'>
+        {/*
         <p className='footer-subscription-heading'>
             Chaque dessin naît d’un échange.
-        </p>
+        </p>*/}
         {/*
         <div className='input-areas'>
             <form>

@@ -1,8 +1,25 @@
 export const slides = [
-
+    {
+        src:"Dibujos/SombraPadre.jpg",
+        description: "L'ombre du père, 35.6x43.2 cm, 2022"
+    },
+    {
+        src:"Dibujos/asenso.jpg",
+        description: "Recommencer, 35.6x43.2 cm, 2021"
+    },
+    {
+        src:"Dibujos/angustia.jpg",
+        description: "Angoise, 35.6x43.2 cm, 2021"
+    },
+    {
+        src:"Dibujos/Incomprendida.jpg",
+        description: "L'incomprise, 35.6x43.2 cm, 2024"
+    },
     {
         src:"Dibujos/Foi.jpg",
-        description: "Foi, 35.6x43.2cm, 2022"
+        title: "Foi",
+        description: "crayon sur papier, 35.6x43.2cm, 2022",
+        price: "450€"
     },
     {
         src:"Dibujos/Consciencia(1).jpg",
@@ -33,20 +50,12 @@ export const slides = [
         description:"Volonté, 43.2x35.6 cm, 2023"
     },
     {
-        src:"Dibujos/tacto.jpg",
-        description:"Tacte, 43.2cx35.6 cm, 2023"
-    },
-    {
         src:"Dibujos/pacto.jpg",
         description:"Pacte, 43.2x35.6 cm, 2023"
     },
     {
         src:"Dibujos/contacto.jpg",
         description:"Contact, 35.6x43.2 cm, 2024"
-    },
-    {
-        src:"Dibujos/GKnot.jpg",
-        description:"Nœud Gordian , 50x70 cm, 2024"
     },
     {
         src:"Dibujos/Sabotaje.jpg",

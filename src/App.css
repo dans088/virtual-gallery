@@ -1,16 +1,16 @@
-  html, body { 
-  height: 100%;
-  min-height: auto;
+html,
+body,
+#root {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
-  overflow-y: visible;  /* allow body to be scrollable normally */
-  max-width: 100%;
-  -webkit-overflow-scrolling: touch;  /* smooth scrolling on iOS */
 }
 
-
-  body::-webkit-scrollbar{
-    display: none;
-  }
+body::-webkit-scrollbar {
+  display: none;
+}
 
 * {
   box-sizing: border-box;
@@ -33,23 +33,20 @@
 }
 /*Gallery 1*/
 .galleryOne {
-  position: relative;             /* ✅ Not absolute */
-  min-height: auto;              /* ✅ Allow it to grow */
+  position: relative;
+  min-height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-y: auto;               /* ✅ Allow vertical scrolling */
+  overflow-y: auto;
   box-sizing: border-box;
-  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  -webkit-overflow-scrolling: touch;
   height: auto;
   flex-grow: 0;
   flex-shrink: 0;
-  .galleryOne {
-  outline: 2px solid blue;
 }
 
-}
 /* remove bottom margin from last child */
 .galleryOne > *:last-child {
   margin-bottom: 0 !important;
