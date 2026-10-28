@@ -73,7 +73,7 @@ export default function HowItWorks() {
                                     />
 
                                     <CardItem
-                                        src="Dibujos/ensoi2.jpg"
+                                        src="Dibujos/Ninfa2.jpg"
                                         text={t('BuyingProtocol.body')}
                                         path="/galleryFive"
                                     />

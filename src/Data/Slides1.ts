@@ -17,9 +17,11 @@ export const slides = [
     },
     {
         src:"Dibujos/Foi.jpg",
+        framedSrc:"Dibujos/Foi_framed.jpeg",
         title: "Foi",
         description: "crayon sur papier, 35.6x43.2cm, 2022",
-        price: "450€"
+        price: "450€",
+        framed: true
     },
     {
         src:"Dibujos/Consciencia(1).jpg",

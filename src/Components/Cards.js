@@ -15,7 +15,7 @@ function Cards() {
                   path='/galleryOne'
                 />
                 <CardItem 
-                  src= "Dibujos/ensoi2.jpg"
+                  src= "Dibujos/Ninfa2.jpg"
                   text= "Corps"
                   path='/galleryFive'
                 />

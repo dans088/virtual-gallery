@@ -10,6 +10,7 @@ export default function Grid(props) {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [submitError, setSubmitError] = useState('');
+    const [framedArtworkSrc, setFramedArtworkSrc] = useState(null);
 
     const closeLightbox = () => {
         setIndex(-1);
@@ -404,15 +405,45 @@ export default function Grid(props) {
                                 }}
                             >
                                 <img
-                                    src={slide.src}
+                                    src={
+                                        slide.framedSrc && framedArtworkSrc === slide.src
+                                            ? slide.framedSrc
+                                            : slide.src
+                                    }
                                     alt={slide.title || ''}
                                     style={{
                                         maxWidth: '100%',
-                                        maxHeight: 'calc(100% - 90px)',
+                                        maxHeight: slide.framedSrc
+                                            ? 'calc(100% - 130px)'
+                                            : 'calc(100% - 90px)',
                                         objectFit: 'contain',
                                     }}
                                 />
-
+                                {slide.framedSrc && (
+                                    <button
+                                        type="button"
+                                        onClick={() => {
+                                            setFramedArtworkSrc(
+                                                framedArtworkSrc === slide.src ? null : slide.src
+                                            );
+                                        }}
+                                        style={{
+                                            marginTop: '10px',
+                                            padding: '7px 12px',
+                                            background: 'transparent',
+                                            border: '1px solid rgba(255, 255, 255, 0.65)',
+                                            color: 'white',
+                                            fontSize: '13px',
+                                            fontFamily: 'inherit',
+                                            cursor: 'pointer',
+                                            borderRadius: '2px',
+                                        }}
+                                    >
+                                        {framedArtworkSrc === slide.src
+                                            ? 'Voir le dessin seul'
+                                            : 'Voir l’œuvre encadrée'}
+                                    </button>
+                                )}
                                 <div
                                     style={{
                                         textAlign: 'center',
