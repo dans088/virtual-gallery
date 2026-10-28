@@ -43,6 +43,13 @@ export default function Grid(props) {
             if (!response.ok) {
                 throw new Error('Submission failed');
             }
+            if (typeof window.fbq === 'function') {
+            window.fbq('track', 'Lead', {
+                content_name: artworkTitle,
+            });
+}
+
+setIsSubmitted(true);
 
             setIsSubmitted(true);
         } catch (error) {
@@ -59,13 +66,21 @@ export default function Grid(props) {
             <Images
                 data={props.slides}
                 onClick={(currentIndex) => {
+                    const artwork = props.slides[currentIndex];
+
+                    if (typeof window.fbq === 'function') {
+                        window.fbq('track', 'ViewContent', {
+                            content_name: artwork?.title || 'Untitled artwork',
+                            content_type: 'product',
+                        });
+                    }
+
                     setIndex(currentIndex);
                     setShowForm(false);
                     setIsSubmitted(false);
                     setSubmitError('');
                 }}
             />
-
             <Lightbox
                 toolbar={{
                     buttons: [
@@ -75,6 +90,11 @@ export default function Grid(props) {
                                     key="acquire"
                                     type="button"
                                     onClick={() => {
+                                         if (!showForm && typeof window.fbq === 'function') {
+                                            window.fbq('trackCustom', 'AcquisitionFormOpen', {
+                                                content_name: artworkTitle,
+                                            });
+                                        }
                                         setShowForm(!showForm);
                                         setIsSubmitted(false);
                                         setSubmitError('');
