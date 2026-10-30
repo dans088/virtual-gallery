@@ -1,13 +1,19 @@
 export const slides = [
     {
-        src:"Dibujos/SombraPadre.jpg",
-        title: "L'ombre du père",
-        description: "35.6 x 43.2 cm, 2022"
+        src:"Dibujos/libertad(1).jpg",
+        framedSrc:"Dibujos/liberte_framed1.png",
+        title: "Liberté",
+        description: "crayon sur papier, 35.6 x 43.2cm, 2022",
+        price: "480€",
+        framed: true
     },
     {
-        src:"Dibujos/asenso.jpg",
-        title: "Recommencer",
-        description: "35.6 x 43.2 cm, 2021"
+        src:"Dibujos/Consciencia(1).jpg",
+        framedSrc:"Dibujos/Conscience_framed.jpeg",
+        title: "Conscience",
+        description: "crayon sur papier, 43.2 x 35.6cm, 2022",
+        price: "450€",
+        framed: true
     },
     {
         src:"Dibujos/angustia.jpg",
@@ -44,20 +50,15 @@ export const slides = [
         framed: true
     },
     {
-        src:"Dibujos/Consciencia(1).jpg",
-        framedSrc:"Dibujos/Conscience_framed.jpeg",
-        title: "Conscience",
-        description: "crayon sur papier, 43.2 x 35.6cm, 2022",
-        price: "450€",
-        framed: true
+        src:"Dibujos/asenso.jpg",
+        title: "Recommencer",
+        description: "35.6 x 43.2 cm, 2021"
     },
     {
-        src:"Dibujos/libertad(1).jpg",
-        framedSrc:"Dibujos/liberte_framed1.png",
-        title: "Liberté",
-        description: "crayon sur papier, 35.6 x 43.2cm, 2022",
-        price: "480€",
-        framed: true
+        src:"Dibujos/SombraPadre.jpg",
+        title: "L'ombre du père",
+        description: "35.6 x 43.2 cm, 2022",
+        price: "380€"
     },
     {
         src:"Dibujos/Open.png",
