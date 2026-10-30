@@ -56,6 +56,12 @@ export default function HowItWorks() {
                         }}
                     />
 
+                    <p
+                        dangerouslySetInnerHTML={{
+                            __html: t('BuyingProtocol.message2'),
+                        }}
+                    />
+
                     <h2
                         className="collection-heading"
                         dangerouslySetInnerHTML={{
@@ -87,12 +93,6 @@ export default function HowItWorks() {
                             </div>
                         </div>
                     </div>
-
-                    <p
-                        dangerouslySetInnerHTML={{
-                            __html: t('BuyingProtocol.message2'),
-                        }}
-                    />
                 </div>
             </div>
         </div>
