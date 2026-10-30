@@ -128,7 +128,8 @@ export const slides = [
     {
         src:"Dibujos/etudeSanguine.jpg",
         title: "Étude Sanguine",
-        description:"sanguine sur papier, 45 x 35 cm, 2025"
+        description:"sanguine sur papier, 45 x 35 cm, 2025",
+        price: "380€"
     },
 
 

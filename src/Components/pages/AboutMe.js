@@ -22,9 +22,7 @@ export default function AboutMe(){
     const myJSON = JSON.stringify(t("AboutMe.message1"));
     const stringWithoutQuotes1 = myJSON.replace(/"/g, '');
     
-    //second text column
-    const myJSON2 = JSON.stringify(t("AboutMe.message2"));
-    const stringWithoutQuotes2 = myJSON2.replace(/"/g, '');
+    
     //<img src="me.jpg" alt="orangerie"></img>
     return (
 
@@ -39,9 +37,6 @@ export default function AboutMe(){
         <div className='text-image-container'>
             <div class='first-column'> 
                 <p dangerouslySetInnerHTML = {{__html: stringWithoutQuotes1}}></p>
-            </div>
-            <div class='second-column'>
-                <p dangerouslySetInnerHTML = {{__html: stringWithoutQuotes2}}></p>
             </div>
         </div>
     </div>
