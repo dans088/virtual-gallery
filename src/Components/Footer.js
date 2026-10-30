@@ -60,26 +60,19 @@ function Footer() {
                     />
                 </Link>
             </div>
-            <small
-                className='website-rights'
-                style={{
-                    position: 'relative',
-                    left: '50px'
-                }}
-            >
+            <small className='website-rights'>
                 GRADIVAS | Artist © 2024
             </small>
+
             <div className='social-icons'>
-             
-                <Link className='social-icon-link instagram'
-                to= "https://instagram.com/_gradivas_/"
-                target="_blank"
-                aria-label="Instagram"
+                <Link
+                    className='social-icon-link instagram'
+                    to="https://instagram.com/_gradivas_/"
+                    target="_blank"
+                    aria-label="Instagram"
                 >
-                    <i className='fab fa-instagram' style={{position: 'relative', right:'-110px'}}/>
+                    <i className='fab fa-instagram' />
                 </Link>
-               
-               
             </div>
         </div>
     </section>
