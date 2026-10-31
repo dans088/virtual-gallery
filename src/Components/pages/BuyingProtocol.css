@@ -9,13 +9,14 @@
     box-sizing: border-box;
 }
 
-/* Headings */
+/* Main heading */
 #aboutMe h1 {
     text-align: center;
     margin-bottom: 2em;
     margin-top: 3.5em;
 }
 
+/* Collection heading */
 .about .collection-heading {
     font-size: 1.4rem;
     font-weight: 500;
@@ -87,16 +88,53 @@
 /* Tablet and mobile */
 @media only screen and (max-width: 1024px) {
 
+    /* Main page */
     #aboutMe.about {
-        padding: 1.5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         width: 100%;
+        min-height: 100vh;
+        min-height: 100dvh;
+
+        padding: 110px 1rem 1.5rem;
+        box-sizing: border-box;
     }
 
-    #aboutMe h1 {
-        margin-top: 2rem;
-        margin-bottom: 1.5em;
+    /* Main heading */
+    #aboutMe.about > h1 {
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: 0 0 30px;
+        padding: 0;
+        text-align: center;
+        color: #242424;
+        line-height: 1.3;
     }
 
+    /* Language buttons */
+    #aboutMe .lang-box-me {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        width: 100%;
+        margin: 0 0 25px;
+        padding: 0;
+    }
+
+    .lang-box-me .btn,
+    .lang-box .btn {
+        width: auto;
+        min-width: 0;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    /* Content layout */
     .row {
         flex-direction: column;
         padding: 1rem 0;
@@ -109,30 +147,8 @@
         max-width: 100%;
     }
 
-    /* Language buttons */
-    .lang-box-me,
-    .lang-box {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 6px;
-        margin: 25px 0;
-        padding: 0;
-        transform: none;
-        height: auto;
-    }
-
-    .lang-box-me .btn,
-    .lang-box .btn {
-        width: auto;
-        min-width: 0;
-        padding: 6px 12px;
-        font-size: 14px;
-        line-height: 1.2;
-    }
-
-    /* Text */
-    .text-container {
+    /* Text container */
+    #aboutMe .text-container {
         width: 100%;
         padding: 0;
         margin: 0 auto;
@@ -144,9 +160,10 @@
         width: 100%;
     }
 
-    .text__wrapper {
+    /* Text wrapper */
+    #aboutMe .text__wrapper {
         width: 100%;
-        margin: 30px 0;
+        margin: 20px 0 30px;
         font-size: 22px;
         overflow-wrap: break-word;
     }
@@ -155,6 +172,7 @@
         font-size: 18px;
     }
 
+    /* Collection heading */
     .about .collection-heading {
         font-size: 1.2rem;
         margin-top: 30px;
@@ -166,7 +184,7 @@
 @media only screen and (max-width: 480px) {
 
     #aboutMe.about {
-        padding: 1rem;
+        padding: 110px 1rem 1.5rem;
     }
 
     .text-container p,

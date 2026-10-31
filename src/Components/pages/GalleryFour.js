@@ -62,18 +62,10 @@ import {slides} from '../../Data/Slides4.ts'
 import './Gallery.css'
 import '../ScrollToTop.js'
 
-
-export default function GalleryFour(){
-
+export default function GalleryOne() {
     return (
-    
-        <div style={{border:"80px solid #303030", height:"5000px", width:"100vw", backgroundColor:"#303030"}}>
-            <Grid
-            slides = {slides}
-            />
+        <div className="gallery-container">
+            <Grid slides={slides} />
         </div>
-    
-           
     );
-
 }
