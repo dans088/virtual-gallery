@@ -1,9 +1,10 @@
 export const slides = [
 
     {
-        src:"Dibujos/ensoi2.jpg",
-        title: "En soi",
-        description:"pierre noire sur papier, 43.2 x 35.6 cm, 2024"
+        src:"Dibujos/etudeSanguine.jpg",
+        title: "Étude Sanguine",
+        description:"sanguine sur papier, 45 x 35 cm, 2025",
+        price: "380€"
     },
     {
         src:"Dibujos/Gradiva.jpg",
@@ -12,11 +13,6 @@ export const slides = [
         description: "pastel blanc sur papier bleu, 43 x 36 cm, 2026",
         price: "350€",
         framed: true
-    },
-    {
-        src:"Dibujos/Thanatos.jpg",
-        title: "Thanatos",
-        description: " crayon sur papier, 45 x 35 cm, 2024"
     },
     {
         src:"Dibujos/Mnemos_extended.jpg",
@@ -126,19 +122,15 @@ export const slides = [
         description:"crayon sur papier, 25 x 38 cm, 2024"
     },
     {
-        src:"Dibujos/etudeSanguine.jpg",
-        title: "Étude Sanguine",
-        description:"sanguine sur papier, 45 x 35 cm, 2025",
-        price: "380€"
+        src:"Dibujos/ensoi2.jpg",
+        title: "En soi",
+        description:"pierre noire sur papier, 43.2 x 35.6 cm, 2024"
     },
-
-
-    
-
-
-
-
-
+    {
+        src:"Dibujos/Thanatos.jpg",
+        title: "Thanatos",
+        description: " crayon sur papier, 45 x 35 cm, 2024"
+    }
 
 
 ];

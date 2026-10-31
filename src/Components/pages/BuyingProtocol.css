@@ -38,12 +38,6 @@
     padding: 0;
 }
 
-/* Content layout */
-.row {
-    display: flex;
-    margin-bottom: 3em;
-    box-sizing: border-box;
-}
 
 /* Buying protocol cards */
 .buying-protocol-cards {
@@ -134,13 +128,7 @@
         line-height: 1.2;
     }
 
-    /* Content layout */
-    .row {
-        flex-direction: column;
-        padding: 1rem 0;
-        margin-bottom: 2rem;
-        width: 100%;
-    }
+    
 
     .first-image {
         margin-bottom: 2rem;
