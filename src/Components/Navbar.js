@@ -95,7 +95,13 @@ function Navbar() {
             
             
           </ul>
-          {button && <a href='/#contact'> <Button buttonStyle='btn--outline' buttonSize='btn--medium'>Contact</Button></a>}
+          {button && (
+            <a href='/#contact' className="navbar-contact">
+                <Button buttonStyle='btn--outline' buttonSize='btn--medium'>
+                    Contact
+                </Button>
+            </a>
+        )}
         
            
         </div>

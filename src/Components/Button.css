@@ -3,12 +3,16 @@
   }
   
   .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 8px 20px;
     border-radius: 2px;
     outline: none;
     border: none;
     cursor: pointer;
-  }
+    line-height: 1;
+}
   
   .btn--primary {
     background-color: var(--primary);

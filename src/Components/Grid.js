@@ -43,15 +43,15 @@ export default function Grid(props) {
             if (!response.ok) {
                 throw new Error('Submission failed');
             }
-            if (typeof window.fbq === 'function') {
-            window.fbq('track', 'Lead', {
-                content_name: artworkTitle,
-            });
-}
 
-setIsSubmitted(true);
+            if (typeof window.fbq === 'function') {
+                window.fbq('track', 'Lead', {
+                    content_name: artworkTitle,
+                });
+            }
 
             setIsSubmitted(true);
+
         } catch (error) {
             setSubmitError(
                 'Une erreur est survenue. Veuillez réessayer dans quelques instants.'
@@ -81,55 +81,10 @@ setIsSubmitted(true);
                     setSubmitError('');
                 }}
             />
+
             <Lightbox
                 toolbar={{
-                    buttons: [
-                        ...(selectedSlide?.price
-                            ? [
-                                <button
-                                    key="acquire"
-                                    type="button"
-                                    onClick={() => {
-                                         if (!showForm && typeof window.fbq === 'function') {
-                                            window.fbq('trackCustom', 'AcquisitionFormOpen', {
-                                                content_name: artworkTitle,
-                                            });
-                                        }
-                                        setShowForm(!showForm);
-                                        setIsSubmitted(false);
-                                        setSubmitError('');
-                                    }}
-                                    style={{
-                                        background: 'transparent',
-                                        border: '1px solid white',
-                                        color: 'white',
-                                        padding: '4px 8px',
-                                        borderRadius: '4px',
-                                        cursor: 'pointer',
-                                        fontSize: '14px',
-                                        marginRight: '8px',
-                                        transition:
-                                            'background-color 0.2s ease, color 0.2s ease',
-                                    }}
-                                    onMouseEnter={(e) => {
-                                        e.currentTarget.style.backgroundColor =
-                                            'white';
-                                        e.currentTarget.style.color = 'black';
-                                    }}
-                                    onMouseLeave={(e) => {
-                                        e.currentTarget.style.backgroundColor =
-                                            'transparent';
-                                        e.currentTarget.style.color = 'white';
-                                    }}
-                                >
-                                    {showForm ? 'Retour à l’œuvre' : 'Acquérir'}
-                                </button>,
-                            ]
-                            : []),
-                        'zoom',
-                        'fullscreen',
-                        'close',
-                    ],
+                    buttons: ['zoom', 'fullscreen', 'close'],
                 }}
                 plugins={[Fullscreen, Zoom]}
                 index={index}
@@ -171,6 +126,27 @@ setIsSubmitted(true);
                                     >
                                         {!isSubmitted ? (
                                             <>
+                                                <button
+                                                    type="button"
+                                                    onClick={() => {
+                                                        setShowForm(false);
+                                                        setIsSubmitted(false);
+                                                        setSubmitError('');
+                                                    }}
+                                                    style={{
+                                                        background: 'transparent',
+                                                        border: 'none',
+                                                        color: '#555',
+                                                        padding: '0',
+                                                        marginBottom: '18px',
+                                                        fontSize: '13px',
+                                                        cursor: 'pointer',
+                                                        fontFamily: 'inherit',
+                                                    }}
+                                                >
+                                                    ← Retour à l’œuvre
+                                                </button>
+
                                                 <h2
                                                     style={{
                                                         fontSize: '22px',
@@ -439,12 +415,15 @@ setIsSubmitted(true);
                                         objectFit: 'contain',
                                     }}
                                 />
+
                                 {slide.framedSrc && (
                                     <button
                                         type="button"
                                         onClick={() => {
                                             setFramedArtworkSrc(
-                                                framedArtworkSrc === slide.src ? null : slide.src
+                                                framedArtworkSrc === slide.src
+                                                    ? null
+                                                    : slide.src
                                             );
                                         }}
                                         style={{
@@ -453,7 +432,7 @@ setIsSubmitted(true);
                                             background: 'transparent',
                                             border: '1px solid rgba(255, 255, 255, 0.65)',
                                             color: 'white',
-                                            fontSize: '13px',
+                                            fontSize: '18px',
                                             fontFamily: 'inherit',
                                             cursor: 'pointer',
                                             borderRadius: '2px',
@@ -464,12 +443,13 @@ setIsSubmitted(true);
                                             : 'Voir l’œuvre encadrée'}
                                     </button>
                                 )}
+
                                 <div
                                     style={{
                                         textAlign: 'center',
                                         padding: '12px 16px',
                                         color: 'white',
-                                        fontSize: '14px',
+                                        fontSize: '18px',
                                         lineHeight: 1.5,
                                     }}
                                 >
@@ -480,8 +460,53 @@ setIsSubmitted(true);
                                     </div>
 
                                     {slide.price && (
-                                        <div style={{ fontWeight: 'bold' }}>
-                                            {slide.price}
+                                        <div
+                                            style={{
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'center',
+                                                gap: '12px',
+                                                marginTop: '4px',
+                                            }}
+                                        >
+                                            <span style={{ fontWeight: 'bold' }}>
+                                                {slide.price}
+                                            </span>
+
+                                            <button
+                                                type="button"
+                                                onClick={() => {
+                                                    if (
+                                                        typeof window.fbq === 'function'
+                                                    ) {
+                                                        window.fbq(
+                                                            'trackCustom',
+                                                            'AcquisitionFormOpen',
+                                                            {
+                                                                content_name: artworkTitle,
+                                                            }
+                                                        );
+                                                    }
+
+                                                    setShowForm(true);
+                                                    setIsSubmitted(false);
+                                                    setSubmitError('');
+                                                }}
+                                                style={{
+                                                    backgroundColor: '#f2e8d5',
+                                                    color: '#222',
+                                                    border: 'none',
+                                                    borderRadius: '2px',
+                                                    padding: '6px 14px',
+                                                    fontSize: '18px',
+                                                    fontWeight: '600',
+                                                    letterSpacing: '0.8px',
+                                                    cursor: 'pointer',
+                                                    fontFamily: 'inherit',
+                                                }}
+                                            >
+                                                BUY
+                                            </button>
                                         </div>
                                     )}
                                 </div>
