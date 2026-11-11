@@ -16,14 +16,40 @@ export const slides = [
         framed: true
     },
     {
+        src:"Dibujos/Source.jpg",
+        framedSrc:"Dibujos/GordianKnot-framed.jpeg",
+        title: "Nœud Gordien",
+        description:"fusain et crayon sur papier, 35.6 x 43.2 cm, 2023",
+        price: "450€",
+        framed: true
+    },
+    {
+        src:"Dibujos/Voluntad-.jpg",
+        framedSrc:"Dibujos/slipknot_framed.png",
+        title: "Volonté",
+        description:"fusain et crayon sur papier, 43.2 x 35.6 cm, 2023",
+        price: "450€",
+        framed: true
+    },
+    {
+        src:"Dibujos/toujours.jpg",
+        framedSrc:"Dibujos/toujours-framed.jpg",
+        title: "Toujours",
+        description:"fusain sur papier, 86 x 100 cm, 2024",
+        price: "1400€ (VENDU)",
+        framed: true
+    },
+    {
         src:"Dibujos/angustia.jpg",
         title: "Angoisse",
-        description: "35.6 x 43.2 cm, 2021"
+        description: "35.6 x 43.2 cm, 2021",
+        price: "380€"
     },
     {
         src:"Dibujos/Incomprendida.jpg",
         title: "L'incomprise",
-        description: "35.6 x 43.2 cm, 2024"
+        description: "35.6 x 43.2 cm, 2024",
+        price: "380€"
     },
     {
         src:"Dibujos/Ariadne.jpeg",
@@ -42,44 +68,9 @@ export const slides = [
         framed: true
     },
     {
-        src:"Dibujos/Foi.jpg",
-        framedSrc:"Dibujos/Foi_framed.jpeg",
-        title: "Foi",
-        description: "crayon sur papier, 35.6 x 43.2cm, 2022",
-        price: "450€",
-        framed: true
-    },
-    {
-        src:"Dibujos/asenso.jpg",
-        title: "Recommencer",
-        description: "35.6 x 43.2 cm, 2021"
-    },
-    {
-        src:"Dibujos/SombraPadre.jpg",
-        title: "L'ombre du père",
-        description: "35.6 x 43.2 cm, 2022",
-        price: "380€"
-    },
-    {
         src:"Dibujos/Open.png",
         title: "Héritage",
         description:"70 x 90 cm, 2024"
-    },
-    {
-        src:"Dibujos/Source.jpg",
-        framedSrc:"Dibujos/GordianKnot-framed.jpeg",
-        title: "Nœud Gordien",
-        description:"fusain et crayon sur papier, 35.6 x 43.2 cm, 2023",
-        price: "450€",
-        framed: true
-    },
-    {
-        src:"Dibujos/Voluntad-.jpg",
-        framedSrc:"Dibujos/slipknot_framed.png",
-        title: "Volonté",
-        description:"fusain et crayon sur papier, 43.2 x 35.6 cm, 2023",
-        price: "450€",
-        framed: true
     },
     {
         src:"Dibujos/pacto.jpg",
@@ -119,14 +110,6 @@ export const slides = [
         price: "380€"
     },
     {
-        src:"Dibujos/toujours.jpg",
-        framedSrc:"Dibujos/toujours-framed.jpg",
-        title: "Toujours",
-        description:"fusain sur papier, 86 x 100 cm, 2024",
-        price: "1400€ (VENDU)",
-        framed: true
-    },
-    {
         src:"Dibujos/madameX.jpg",
         framedSrc:"Dibujos/MadameX_framed.jpg",
         title: "Les mains de Madame X",
@@ -134,6 +117,17 @@ export const slides = [
         price: "500",
         framed: true
     },
+    {
+        src:"Dibujos/asenso.jpg",
+        title: "Recommencer",
+        description: "35.6 x 43.2 cm, 2021"
+    },
+    {
+        src:"Dibujos/SombraPadre.jpg",
+        title: "L'ombre du père",
+        description: "35.6 x 43.2 cm, 2022",
+        price: "380€"
+    }
     
 
 
