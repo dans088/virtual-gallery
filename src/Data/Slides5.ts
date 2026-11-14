@@ -37,12 +37,6 @@ export const slides = [
         price: "900€"
     },
     {
-        src:"Dibujos/penseur.jpg",
-        title: "Penseur",
-        description: "crayon sur papier, 30 x 20 cm, 2025",
-        price: "150€"
-    },
-    {
         src:"Dibujos/atlas.jpg",
         title: "Atlas",
         description: "crayon sur papier, 30 x 20 cm, 2025",
