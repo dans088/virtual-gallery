@@ -1,4 +1,34 @@
 {
+    "Site": {
+        "home": "Home",
+        "gallery": "Gallery",
+        "whatIsDrawing": "What is a drawing?",
+        "about": "About",
+        "contact": "Contact",
+        "acquireDrawing": "Buy",
+        "figure": "Figure"
+    },
+    "Grid": {
+        "backToArtwork": "← Back to artwork",
+        "acquireArtwork": "Buy this artwork",
+        "artworkLabel": "Artwork",
+        "defaultMessage": "Hello, I am interested in the artwork “{{title}}”.",
+        "artwork": "Artwork",
+        "name": "Your name",
+        "email": "Your email address",
+        "message": "Your message",
+        "sendRequest": "Send my request",
+        "sending": "Sending…",
+        "responseTime": "I will get back to you as soon as possible.",
+        "thankYou": "Thank you for your interest.",
+        "successMessage": "Your request has been successfully submitted. I will get back to you as soon as possible.",
+        "close": "Close",
+        "errorMessage": "An error occurred. Please try again in a moment.",
+        "buy": "BUY",
+        "viewUnframed": "View drawing without frame",
+        "viewFramed": "View framed artwork",
+        "untitledArtwork": "this artwork"
+    },
     "AboutMe" : {
         "message1":"I live and work in Paris. My background brings together studies in Computer Systems Engineering and Philosophy, two disciplines that continue to inform my approach to drawing. Neither, however, placed bodily experience at the centre of its inquiry. This is precisely where my artistic project, Gradivas, begins.<br/><br/><br/>Gradivas takes its name from the figure associated with Aby Warburg's understanding of the survival of images: a presence that returns throughout the history of art, carrying traces of desire, emotion and the passions that find expression through the body. This idea of images as vessels of something elemental in human experience — desire, instinct and emotion — persisting beyond their original moment, is central to my practice.<br/><br/><br/>Working primarily with charcoal, sanguine and dry pastel, I approach the body as a place where the invisible takes form. Through gestures, postures and fragments of the human figure, I explore the expressive possibilities that emerge from the relationship between body and soul, between what is revealed and what remains within. Each drawing is part of an ongoing inquiry into the persistence of bodily expression through images."
     },

@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Images from './Images.tsx';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 import { Fullscreen, Zoom } from 'yet-another-react-lightbox/plugins';
 
 export default function Grid(props) {
+    const { t } = useTranslation('global');
     const [index, setIndex] = useState(-1);
     const [showForm, setShowForm] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -20,7 +22,7 @@ export default function Grid(props) {
     };
 
     const selectedSlide = props.slides[index];
-    const artworkTitle = selectedSlide?.title || 'cette œuvre';
+    const artworkTitle = selectedSlide?.title || t('Grid.fallbackArtwork');
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -54,7 +56,7 @@ export default function Grid(props) {
 
         } catch (error) {
             setSubmitError(
-                'Une erreur est survenue. Veuillez réessayer dans quelques instants.'
+                t('Grid.submissionError')
             );
         } finally {
             setIsSubmitting(false);
@@ -144,7 +146,7 @@ export default function Grid(props) {
                                                         fontFamily: 'inherit',
                                                     }}
                                                 >
-                                                    ← Retour à l’œuvre
+                                                    {t('Grid.backToArtwork')}
                                                 </button>
 
                                                 <h2
@@ -154,7 +156,7 @@ export default function Grid(props) {
                                                         margin: '0 0 12px',
                                                     }}
                                                 >
-                                                    Acquérir cette œuvre
+                                                    {t('Grid.acquireArtwork')}
                                                 </h2>
 
                                                 <p
@@ -164,7 +166,7 @@ export default function Grid(props) {
                                                         lineHeight: '1.6',
                                                     }}
                                                 >
-                                                    Œuvre : <em>{artworkTitle}</em>
+                                                    {t('Grid.artworkLabel')} <em>{artworkTitle}</em>
                                                 </p>
 
                                                 <form
@@ -194,7 +196,7 @@ export default function Grid(props) {
                                                         aria-hidden="true"
                                                     >
                                                         <label>
-                                                            Ne pas remplir :
+                                                            {t('Grid.honeypotLabel')}
                                                             <input
                                                                 name="bot-field"
                                                                 tabIndex="-1"
@@ -216,7 +218,7 @@ export default function Grid(props) {
                                                                 marginBottom: '7px',
                                                             }}
                                                         >
-                                                            Votre nom
+                                                            {t('Grid.name')}
                                                         </label>
 
                                                         <input
@@ -242,7 +244,7 @@ export default function Grid(props) {
                                                                 marginBottom: '7px',
                                                             }}
                                                         >
-                                                            Votre adresse e-mail
+                                                            {t('Grid.email')}
                                                         </label>
 
                                                         <input
@@ -268,13 +270,13 @@ export default function Grid(props) {
                                                                 marginBottom: '7px',
                                                             }}
                                                         >
-                                                            Votre message
+                                                            {t('Grid.message')}
                                                         </label>
 
                                                         <textarea
                                                             id="acquisition-message"
                                                             name="message"
-                                                            defaultValue={`Bonjour, je suis intéressé par l’œuvre « ${artworkTitle} ».`}
+                                                            defaultValue={t('Grid.defaultMessage', { title: artworkTitle })}
                                                             required
                                                             rows={4}
                                                             style={{
@@ -318,8 +320,8 @@ export default function Grid(props) {
                                                         }}
                                                     >
                                                         {isSubmitting
-                                                            ? 'Envoi en cours…'
-                                                            : 'Envoyer ma demande'}
+                                                            ? t('Grid.sending')
+                                                            : t('Grid.sendRequest')}
                                                     </button>
 
                                                     <p
@@ -331,8 +333,7 @@ export default function Grid(props) {
                                                             color: '#666',
                                                         }}
                                                     >
-                                                        Je vous répondrai dans les
-                                                        meilleurs délais.
+                                                        {t('Grid.responseTime')}
                                                     </p>
                                                 </form>
                                             </>
@@ -351,7 +352,7 @@ export default function Grid(props) {
                                                         margin: '0 0 16px',
                                                     }}
                                                 >
-                                                    Merci pour votre intérêt.
+                                                    {t('Grid.thankYou')}
                                                 </h2>
 
                                                 <p
@@ -361,9 +362,7 @@ export default function Grid(props) {
                                                         margin: '0 0 24px',
                                                     }}
                                                 >
-                                                    Votre demande a bien été
-                                                    envoyée. Je vous répondrai
-                                                    dans les meilleurs délais.
+                                                    {t('Grid.requestSent')}
                                                 </p>
 
                                                 <button
@@ -379,7 +378,7 @@ export default function Grid(props) {
                                                         cursor: 'pointer',
                                                     }}
                                                 >
-                                                    Fermer
+                                                    {t('Grid.close')}
                                                 </button>
                                             </div>
                                         )}
@@ -439,8 +438,8 @@ export default function Grid(props) {
                                         }}
                                     >
                                         {framedArtworkSrc === slide.src
-                                            ? 'Voir le dessin seul'
-                                            : 'Voir l’œuvre encadrée'}
+                                            ? t('Grid.viewDrawing')
+                                            : t('Grid.viewFramed')}
                                     </button>
                                 )}
 
@@ -505,7 +504,7 @@ export default function Grid(props) {
                                                     fontFamily: 'inherit',
                                                 }}
                                             >
-                                                BUY
+                                                {t('Grid.buy')}
                                             </button>
                                         </div>
                                     )}

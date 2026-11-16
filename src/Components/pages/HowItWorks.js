@@ -1,4 +1,4 @@
-import React , {useEffect} from 'react';
+import React from 'react';
 import './HowItWorks.css'
 import { useTranslation } from 'react-i18next';
 import { Button } from '../Button';
@@ -7,11 +7,6 @@ import '../Navbar';
 export default function HowItWorks(){
 
     const [t, i18n] = useTranslation("global");
-
-    //Set default language to French on load
-    useEffect(() => {
-        i18n.changeLanguage("fr");
-    }, [i18n]);
 
     const handleChangeLanguage = (lang: string) => {
         i18n.changeLanguage(lang);
@@ -27,7 +22,7 @@ export default function HowItWorks(){
     return (
 
     <div id = 'aboutMe'className='about'>
-        <h1>What is a drawing?</h1>
+        <h1>{t('Site.whatIsDrawing')}</h1>
         <div className= 'lang-box-me'>
                 <Button buttonStyle="btn--outline-2" buttonSize="btn--medium" onClick={()=>handleChangeLanguage("en")}>EN</Button>
                 <Button buttonStyle="btn--outline-2" buttonSize="btn--medium" onClick={()=>handleChangeLanguage("es")}>ES</Button>
@@ -38,12 +33,12 @@ export default function HowItWorks(){
                 <p dangerouslySetInnerHTML = {{__html: stringWithoutQuotes1}}></p>
                 <div class = "row">
                     <div class = "column">
-                        <img src="Dibujos/no-knot.jpg" alt="Knot" style={{width:"80%"}}/>
-                        <figcaption class = "first-image" style={{fontSize:"15px"}}> <em>Figure 1</em> </figcaption>
+                        <img src="Dibujos/no-knot.jpg" alt={t("HowItWorks.imageAlt") } style={{width:"80%"}}/>
+                        <figcaption class = "first-image" style={{fontSize:"15px"}}> <em>{t("Site.figure")} 1</em> </figcaption>
                     </div>
                     <div class = "column">
-                        <img src="Dibujos/knot.jpg" alt="Not" style={{width:"85%"}}/>
-                        <figcaption style={{fontSize:"15px"}}> <em>Figure 2</em> </figcaption>
+                        <img src="Dibujos/knot.jpg" alt={t("HowItWorks.imageAlt") } style={{width:"85%"}}/>
+                        <figcaption style={{fontSize:"15px"}}> <em>{t("Site.figure")} 2</em> </figcaption>
                     </div>
                 </div>
                 <p dangerouslySetInnerHTML = {{__html: stringWithoutQuotes2}}></p>

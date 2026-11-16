@@ -1,9 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 import myLogo from '../Firma_Blanca.png';
 
 function Footer() {
+    const { t } = useTranslation('global');
+
     return (
         <footer id="contact" className="footer-container">
 
@@ -23,7 +26,7 @@ function Footer() {
                 </div>
 
                 <div className="footer-contact">
-                    <h2>Contact</h2>
+                    <h2>{t('Site.contact')}</h2>
 
                     <a href="tel:+330659155808">
                         +33 06 59 15 58 08

@@ -1,4 +1,34 @@
 {   
+    "Site": {
+        "home": "Accueil",
+        "gallery": "Galerie",
+        "whatIsDrawing": "Qu'est-ce qu'un dessin ?",
+        "about": "À propos",
+        "contact": "Contact",
+        "acquireDrawing": "Acheter",
+        "figure": "Figure"
+    },
+    "Grid": {
+        "backToArtwork": "← Retour à l’œuvre",
+        "acquireArtwork": "Acquérir cette œuvre",
+        "artworkLabel": "Œuvre",
+        "defaultMessage": "Bonjour, je suis intéressé par l’œuvre « {{title}} ».",
+        "artwork": "Œuvre",
+        "name": "Votre nom",
+        "email": "Votre adresse e-mail",
+        "message": "Votre message",
+        "sendRequest": "Envoyer ma demande",
+        "sending": "Envoi en cours…",
+        "responseTime": "Je vous répondrai dans les meilleurs délais.",
+        "thankYou": "Merci pour votre intérêt.",
+        "successMessage": "Votre demande a bien été envoyée. Je vous répondrai dans les meilleurs délais.",
+        "close": "Fermer",
+        "errorMessage": "Une erreur est survenue. Veuillez réessayer dans quelques instants.",
+        "buy": "BUY",
+        "viewUnframed": "Voir le dessin seul",
+        "viewFramed": "Voir l’œuvre encadrée",
+        "untitledArtwork": "cette œuvre"
+    },
     "AboutMe" : {
         "message1":"Je vis et travaille à Paris. Mon parcours réunit des études en ingénierie des systèmes informatiques et en philosophie, deux disciplines qui continuent d'influencer mon approche du dessin. Pourtant, aucune des deux ne plaçait l'expérience corporelle au centre de sa réflexion. C'est précisément là que commence mon projet artistique, Gradivas.<br/><br/><br/>Gradivas tire son nom de la figure associée à la conception de la survivance des images chez Aby Warburg : une présence qui resurgit à travers l'histoire de l'art, portant avec elle des traces de désir, d'émotion et de passions qui trouvent leur expression à travers le corps. Cette idée des images comme réceptacles de quelque chose d'élémentaire dans l'expérience humaine — désir, instinct et émotion — qui persiste au-delà de son moment d'origine, est au cœur de ma pratique.<br/><br/><br/>Travaillant principalement au fusain, à la sanguine et au pastel sec, j'aborde le corps comme un lieu où l'invisible prend forme. À travers les gestes, les postures et les fragments de la figure humaine, j'explore les possibilités expressives qui émergent de la relation entre le corps et l'âme, entre ce qui se révèle et ce qui demeure intérieur. Chaque dessin s'inscrit dans une recherche continue sur la persistance de l'expression corporelle à travers les images."
     },

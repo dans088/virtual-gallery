@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Button } from './Button';
 import './Navbar.css';
 import myLogo from '../logo_transparent.png';
@@ -7,6 +8,8 @@ import {Link} from 'react-router-dom'
 
 
 function Navbar() {
+
+  const { t } = useTranslation('global');
 
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -47,7 +50,7 @@ function Navbar() {
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
-                Accueil
+                {t('Site.home')}
               </a>
             </li>
             <li className='nav-item'>
@@ -56,7 +59,7 @@ function Navbar() {
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
-                Galerie
+                {t('Site.gallery')}
               </a>
             </li>
             <li className='nav-item'>
@@ -65,7 +68,7 @@ function Navbar() {
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
-                Qu'est-ce un dessin ?
+                {t('Site.whatIsDrawing')}
               </a>
               
             </li>
@@ -76,7 +79,7 @@ function Navbar() {
                 className='nav-links nav-btn'
                 onClick={closeMobileMenu}
               >
-                À propos
+                {t('Site.about')}
               </Link>
             </li>
 
@@ -87,7 +90,7 @@ function Navbar() {
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Contact
+                {t('Site.contact')}
               </a>
             </li>
 
@@ -98,7 +101,7 @@ function Navbar() {
           {button && (
             <a href='/#contact' className="navbar-contact">
                 <Button buttonStyle='btn--outline' buttonSize='btn--medium'>
-                    Contact
+                    {t('Site.contact')}
                 </Button>
             </a>
         )}

@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import { useTranslation } from 'react-i18next';
 import '../App.css';
 import {Button} from './Button';
 //import { Link } from 'react-router-dom';
@@ -7,6 +8,7 @@ import './HeroSection.css';
 
 
 function HeroSection() {
+    const { t } = useTranslation('global');
 
     const [video, setVideo] = useState('videos/video.mp4');
 
@@ -38,7 +40,7 @@ function HeroSection() {
           <a href='/BuyingProtocol' className='btn-mobile'>
             <Button className='btns' buttonStyle='btn--outline'
             buttonSize='btn--large'>
-                Acquérir un dessin
+                {t('Site.acquireDrawing')}
             </Button>
           </a>
           </div>

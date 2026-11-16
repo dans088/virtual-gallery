@@ -1,4 +1,34 @@
 {
+    "Site": {
+        "home": "Inicio",
+        "gallery": "Galería",
+        "whatIsDrawing": "¿Qué es un dibujo?",
+        "about": "Acerca de",
+        "contact": "Contacto",
+        "acquireDrawing": "Comprar",
+        "figure": "Figura"
+    },
+    "Grid": {
+        "backToArtwork": "← Volver a la obra",
+        "acquireArtwork": "Adquirir esta obra",
+        "artworkLabel": "Obra",
+        "defaultMessage": "Hola, estoy interesado/a en la obra « {{title}} ».",
+        "artwork": "Obra",
+        "name": "Su nombre",
+        "email": "Su dirección de correo electrónico",
+        "message": "Su mensaje",
+        "sendRequest": "Enviar mi solicitud",
+        "sending": "Enviando…",
+        "responseTime": "Le responderé lo antes posible.",
+        "thankYou": "Gracias por su interés.",
+        "successMessage": "Su solicitud se ha enviado correctamente. Le responderé lo antes posible.",
+        "close": "Cerrar",
+        "errorMessage": "Se ha producido un error. Por favor, inténtelo de nuevo en unos instantes.",
+        "buy": "BUY",
+        "viewUnframed": "Ver el dibujo sin marco",
+        "viewFramed": "Ver la obra enmarcada",
+        "untitledArtwork": "esta obra"
+    },
     "AboutMe" : {
         "message1":"Vivo y trabajo en París. Mi formación reúne estudios en Ingeniería en Sistemas Computacionales y Filosofía, dos disciplinas que siguen influyendo en mi manera de abordar el dibujo. Sin embargo, ninguna de ellas situaba la experiencia corporal en el centro de su reflexión. Es precisamente ahí donde comienza mi proyecto artístico, Gradivas.<br/><br/><br/>Gradivas toma su nombre de la figura asociada a la concepción de la supervivencia de las imágenes de Aby Warburg: una presencia que reaparece a lo largo de la historia del arte, llevando consigo huellas del deseo, la emoción y las pasiones que encuentran expresión a través del cuerpo. Esta idea de las imágenes como recipientes de algo elemental en la experiencia humana —el deseo, el instinto y la emoción— que persiste más allá de su momento de origen, es central en mi práctica.<br/><br/><br/>Trabajo principalmente con carboncillo, sanguina y pastel seco, y abordo el cuerpo como un lugar donde lo invisible toma forma. A través de gestos, posturas y fragmentos de la figura humana, exploro las posibilidades expresivas que surgen de la relación entre cuerpo y alma, entre lo que se revela y lo que permanece en el interior. Cada dibujo forma parte de una investigación continua sobre la persistencia de la expresión corporal a través de las imágenes."
     },
