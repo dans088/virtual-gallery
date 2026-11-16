@@ -21,7 +21,7 @@
         "sending": "Envoi en cours…",
         "responseTime": "Je vous répondrai dans les meilleurs délais.",
         "thankYou": "Merci pour votre intérêt.",
-        "successMessage": "Votre demande a bien été envoyée. Je vous répondrai dans les meilleurs délais.",
+        "requestSent": "Votre demande a bien été envoyée. Je vous répondrai dans les meilleurs délais.",
         "close": "Fermer",
         "errorMessage": "Une erreur est survenue. Veuillez réessayer dans quelques instants.",
         "buy": "BUY",
