@@ -18,7 +18,7 @@ i18n
 
         ns: ['global'],
         defaultNS: 'global',
-        fallbackLng: 'en',
+        fallbackLng: 'fr',
         supportedLngs: ['fr', 'en', 'es'],
 
         detection: {
