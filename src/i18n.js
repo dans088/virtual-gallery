@@ -11,13 +11,14 @@ i18n
     .use(initReactI18next)
     .init({
         resources: {
-            fr: { translation: translationFR },
-            en: { translation: translationEN },
-            es: { translation: translationES }
+            fr: { global: translationFR },
+            en: { global: translationEN },
+            es: { global: translationES }
         },
 
-        fallbackLng: 'fr',
-
+        ns: ['global'],
+        defaultNS: 'global',
+        fallbackLng: 'en',
         supportedLngs: ['fr', 'en', 'es'],
 
         detection: {
