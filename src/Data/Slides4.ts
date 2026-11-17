@@ -2,9 +2,11 @@ export const slides = [
 
     {
         src:"Dibujos/DameCorset.jpg",
+        framedSrc:"Dibujos/DameCorset_framed.jpeg",
         title: "Dame au corset",
         description:"50 x 42 cm, 2026",
-        price: "420€"
+        price: "580€",
+        framed: true
     },
     {
         src:"Dibujos/pour-soi-en-soi2.jpeg",

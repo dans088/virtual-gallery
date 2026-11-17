@@ -9,7 +9,7 @@
         "figure": "Figura"
     },
     "Grid": {
-        "backToArtwork": "← Volver a la obra",
+        "viewDrawing": "← Volver",
         "acquireArtwork": "Adquirir esta obra",
         "artworkLabel": "Obra",
         "defaultMessage": "Hola, estoy interesado/a en la obra « {{title}} ».",
